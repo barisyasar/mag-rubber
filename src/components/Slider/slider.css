@@ -1,0 +1,53 @@
+@import "../../assets/css/abstracts/variables.css";
+
+.title{
+display: flex !important;
+justify-content: end !important;
+align-items: end !important;
+letter-spacing: 5px;
+font-size: 65px;
+font-weight: 700;
+
+}
+
+.mag-rubber-prev-icon{
+    width: 18rem !important;
+    height: 8rem !important;
+}
+.mag-rubber-next-icon{
+    width: 18rem !important;
+    height: 8rem !important;
+    
+}
+
+
+
+.slide-text{
+   color: white;
+   writing-mode: vertical-lr;
+   margin-left: -3px;
+   letter-spacing: 2px;
+  
+}
+.carousel-indicators {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    right: 80%  !important;
+    left: auto !important;
+    bottom: 25% !important;
+
+}
+
+.down-icon{
+    font-size: 40px;
+ 
+}
+.circle-button{
+    width: 20px !important;
+    height: 20px !important;
+    margin: 4px;
+    
+
+
+}

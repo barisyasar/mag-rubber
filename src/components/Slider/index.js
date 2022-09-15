@@ -1,8 +1,9 @@
 import React from 'react';
 import "./slider.css";
-import { FaArrowDown } from "react-icons/fa";
+
 
 export default function Slider() {
+   
   return (
     <div>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -10,10 +11,22 @@ export default function Slider() {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active rounded-circle  circle-button"  aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className="rounded-circle circle-button" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className="rounded-circle circle-button "  aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className="rounded-circle  circle-button"  aria-label="Slide 4"></button>
-    <p className='slide-text mt-3'>SCROLL DOWN  <FaArrowDown className='down-icon mt-2'/> </p>
-   
-   
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className="rounded-circle  circle-button "  aria-label="Slide 4"></button>
+    <p className='slide-text'>SCROLL DOWN </p>
+    <div className="mouse_scroll">
+    <div class="mouse">
+			<div class="wheel"></div>
+		</div>
+    <div>
+        <a href="#to">
+        <span class="m_scroll_arrows one"></span>
+			<span class="m_scroll_arrows two"></span>
+			<span class="m_scroll_arrows three"></span>
+        </a>
+			
+		</div>
+        </div>
+       
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -55,6 +68,13 @@ To Excellence”</h1>
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+<div className='to' id='to'>
+  
+</div>
     </div>
+    
   )
+  
 }
+
+

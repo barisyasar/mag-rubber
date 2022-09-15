@@ -1,88 +1,123 @@
 @import "../../assets/css/abstracts/variables.css";
 
-header{
-    background-color:  var(--white)  ;
+header {
+  background-color: var(--white);
 }
-nav {
-    padding: 0 60px;
-    height: 130px;
 
+nav {
+  padding: 0 60px;
+  height: 90px;
 }
 
 .btn-nav {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 40px;
-    font-size: 22px;
-    letter-spacing: 1.25px;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: 0 17.5px;
+  letter-spacing: 1.25px;
 }
 
-.btn-nav:hover{
-    color: var(--gold) !important;
+.btn-nav:hover {
+  color: var(--gold) !important;
 }
+
 .btn-nav-wrapper {
-    background-color: var(--gray)!important;
-    height: 130px;
-   display: flex;align-items: center;
+  background-color: var(--gray) !important;
+  height: 90px;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper-menu {
-    margin-left: 50px;
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    transition: transform 330ms ease-out;
-  }
-  
-  .wrapper-menu.open {
-    transform: rotate(-45deg);  
-  }
-  
-  .line-menu {
-    background-color: var(--black)!important;
-    border-radius: 5px;
-    width: 100%;
-    height: 5px;
-  }
-  
-  .line-menu.half {
-    width: 50%;
-    transition: 0.25s ease-in-out;
-  }
+  margin-left: 25px;
+  margin-right: 10px;
+  width: 20px;
+  height: 18px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
 
-  
-  .open .line-menu.start {
-    transition-delay: 0.1s;
-    width: 100%;
-    transform: translateY(12px) rotate(90deg);
-    -webkit-transform: translateY(12px) rotate(90deg);
-    -moz-transform: translateY(12px) rotate(90deg);
-    -ms-transform: translateY(12px) rotate(90deg);
-    -o-transform: translateY(12px) rotate(90deg);
+.wrapper-menu.open {
+  transform: rotate(-45deg);
 }
-  
-  .line-menu.end {
-    align-self: flex-end;
 
-  }
-  
-  .open .line-menu.mid {
-    display: none;
-    }
-  .open .line-menu.end {
-    transition-delay: 0.1s;
-    width: 100%;
-    transform: translateY(-12.5px) rotate(0deg);
-    -webkit-transform: translateY(-12.5px) rotate(0deg);
-    -moz-transform: translateY(-12.5px) rotate(0deg);
-    -ms-transform: translateY(-12.5px) rotate(0deg);
-    -o-transform: translateY(-12.5px) rotate(0deg);
+.line-menu {
+  background-color: var(--black) !important;
+  border-radius: 5px;
+  width: 100%;
+  height: 3px;
 }
-  .wrapper-menu:hover .line-menu.half {
-    width: 100%;
+
+.line-menu.half {
+  width: 50%;
+  transition: 0.25s ease-in-out;
 }
+
+
+.open .line-menu.start {
+  transition-delay: 0.1s;
+  width: 100%;
+  transform: translateY(7.5px) rotate(90deg);
+  -webkit-transform: translateY(7.5px) rotate(90deg);
+  -moz-transform: translateY(7.5px) rotate(90deg);
+  -ms-transform: translateY(7.5px) rotate(90deg);
+  -o-transform: translateY(7.5px) rotate(90deg);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+
+}
+
+.open .line-menu.mid {
+  display: none;
+}
+
+.open .line-menu.end {
+  transition-delay: 0.1s;
+  width: 100%;
+  transform: translateY(-7.5px) rotate(0deg);
+  -webkit-transform: translateY(-7.5px) rotate(0deg);
+  -moz-transform: translateY(-7.5px) rotate(0deg);
+  -ms-transform: translateY(-7.5px) rotate(0deg);
+  -o-transform: translateY(-7.5px) rotate(0deg);
+}
+
+.wrapper-menu:hover .line-menu.half {
+  width: 100%;
+}
+
+.nav-lightbox::before {
+  content: '';
+  position: absolute;
+  top: 10vh;
+  left: 0%;
+  width: 100%;
+  height: 90vh;
+  background-color: aquamarine;
+  z-index: 500;
+  transform: scale(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transform-origin: right;
+}
+
+.nav-lightbox.active::before { 
+  transform-origin: left;
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+}
+

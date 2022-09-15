@@ -1,0 +1,7 @@
+@import "../../assets/css/abstracts/variables.css";
+
+nav {
+    padding: 0 60px;
+    height: 110px;
+    background-color:  var(--white)  ;
+}

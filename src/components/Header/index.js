@@ -10,35 +10,44 @@ export default function Header() {
   ));
 
   const toggle = useRef();
+  const navLightbox = useRef();
+
   const onToggle = () => {
     const classList = toggle.current.classList;
-    if (classList.contains("open")) classList.remove("open");
-    else classList.add("open");
+    const Lightbox = navLightbox.current.classList;
+    if (classList.contains("open")) {
+      classList.remove("open");
+      Lightbox.add("active");
+    } else {
+      classList.add("open");
+      Lightbox.remove("active");
+    }
   };
 
   return (
     <header>
-      <nav className="border-bottom d-flex justify-content-between align-items-center">
+      <nav className="container-fluid border-bottom d-flex  justify-content-between align-items-center">
         <div>
-          {" "}
           <Link to="/">
-            <img src="/assets/images/navBrand.png" alt="" width="150" />
+            <img src="/assets/images/navBrand.png" alt="" width="100" />
           </Link>
         </div>
         <div className="d-flex">
-          {links}{" "}
+          {links}
           <div className="btn-nav-wrapper">
             <Link className="btn-nav" to="/">
-              <img src="/assets/images/mag-store.png" alt="" width="100" />
+              <img src="/assets/images/mag-store.png" alt="" width="75" />
             </Link>
           </div>
-          <div className="wrapper-menu" ref={toggle} onClick={onToggle}>
+          <div className="wrapper-menu " ref={toggle} onClick={onToggle}>
             <div className="line-menu half start"></div>
             <div className="line-menu mid"></div>
             <div className="line-menu half end"></div>
           </div>
         </div>
       </nav>
+
+      <div className="nav-lightbox" ref={navLightbox}></div>
     </header>
   );
 }

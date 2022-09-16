@@ -26,7 +26,6 @@ export default function Header() {
 
   return (
     <header>
-      h1
       <nav className="container-fluid border-bottom d-flex  justify-content-between align-items-center">
         <div>
           <Link to="/">

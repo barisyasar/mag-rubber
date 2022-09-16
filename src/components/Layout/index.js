@@ -4,10 +4,10 @@ import Footer from "../Footer";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <React.Fragment>
       <Header />
       {children}
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }

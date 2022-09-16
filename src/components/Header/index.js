@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./header.css";
+import "../../assets/css/components/header.css";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -17,10 +17,10 @@ export default function Header() {
     const Lightbox = navLightbox.current.classList;
     if (classList.contains("open")) {
       classList.remove("open");
-      Lightbox.add("active");
+      Lightbox.remove("active");
     } else {
       classList.add("open");
-      Lightbox.remove("active");
+      Lightbox.add("active");
     }
   };
 

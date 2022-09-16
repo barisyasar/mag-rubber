@@ -1,12 +1,13 @@
-@import "../../assets/css/abstracts/variables.css";
 
 header {
   background-color: var(--white);
 }
 
 nav {
-  padding: 0 60px;
+  padding: 0 100px !important;
   height: 90px;
+
+
 }
 
 .btn-nav {

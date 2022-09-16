@@ -11,24 +11,31 @@ export default function Header() {
 
   const toggle = useRef();
   const navLightbox = useRef();
+  const navMenu = useRef();
 
   const onToggle = () => {
     const classList = toggle.current.classList;
     const Lightbox = navLightbox.current.classList;
+    const nav = navMenu.current.classList;
     if (classList.contains("open")) {
       classList.remove("open");
       Lightbox.remove("active");
+      nav.remove("active");
     } else {
       classList.add("open");
       Lightbox.add("active");
+      nav.add("active");
     }
   };
 
   return (
     <header>
-      <nav className="container-fluid border-bottom d-flex  justify-content-between align-items-center">
+      <nav
+        className="container-fluid border-bottom d-flex justify-content-between align-items-center"
+        ref={navMenu}
+      >
         <div>
-          <Link to="/">
+          <Link to="/" className="main-logo">
             <img src="/assets/images/navBrand.png" alt="" width="100" />
           </Link>
         </div>
@@ -46,7 +53,11 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      <div className="nav-lightbox" ref={navLightbox}></div>
+      <div className="nav-lightbox"></div>
+
+      <div class="page-transition" ref={navLightbox}>
+        <div class="layer"></div>
+      </div>
     </header>
   );
 }

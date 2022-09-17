@@ -1,5 +1,5 @@
 import React from "react";
-
-export default function index() {
-  return <div>index</div>;
+import "../../../../assets/css/components/Headers/components/NavToggler/navToggler.css";
+export default function NavToggler() {
+  return <div className="nav-toggler">NavToggler</div>;
 }

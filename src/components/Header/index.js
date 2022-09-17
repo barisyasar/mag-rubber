@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
-import "../../assets/css/components/header.css";
+import "../../assets/css/components/Headers/header.css";
 import { Link } from "react-router-dom";
+import NavToggler from "./components/NavToggler";
 
 export default function Header() {
   const links = ["about us", "products", "download", "contact"].map((link) => (
@@ -53,7 +54,8 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      <div className="nav-lightbox"></div>
+
+      {/* <NavToggler /> */}
 
       <div class="page-transition" ref={navLightbox}>
         <div class="layer"></div>

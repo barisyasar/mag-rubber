@@ -4372,6 +4372,11 @@
     "utils-merge" "1.0.1"
     "vary" "~1.1.2"
 
+"fade-text@^0.1.4":
+  "integrity" "sha512-Il5MPRFQlVoayUf1+o3+je3CJoWcEsXFvy2EDN5B/7t/Sma1koEYsz8Vx6zZ9nHF8nxsKsrbQy7CM72v+naDeA=="
+  "resolved" "https://registry.npmjs.org/fade-text/-/fade-text-0.1.4.tgz"
+  "version" "0.1.4"
+
 "fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
   "integrity" "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
   "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"

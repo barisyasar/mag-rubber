@@ -1,6 +1,6 @@
 .services-section {
     position: relative;
-    padding: 74px 0px 80px;
+    padding: 0px 0px 80px;
     background-color: #EDEDED;
   
 }
@@ -10,10 +10,8 @@
     left: 0;
     top: 0;
     width: 100%;
-    top: 55px;
+    top: -27px;
     text-align: center;
-    font-family: 'Gilroy-Bold', sans-serif;
-   
 }
 
     .auto-container {
@@ -31,23 +29,31 @@
         line-height: 1.5em;
         font-weight: 700;
         text-transform: uppercase;
-        color: #ff6000;
+        color: var(--gold) !important;
         letter-spacing: 3px;
         margin-bottom: 50px;
   
     }
 
     .marquee{
-        color: #ffff;
+        color: #EDEDED;
         font-size: 1em;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        text-shadow: -2px 0 #fff, -2px 0, 0 2px , 0 -2px #fff,
+        1px 1px , -1px -1px , 1px -1px , -1px 1px;
         position: relative;
         display: block;
         font-size: 84px;
         line-height: 1em;
-        letter-spacing: -5px;
+        letter-spacing: 8px;
         text-transform: uppercase;
-        opacity: 0.1;
+        opacity: 0.9;
+        font-weight: 100;
     }
 
-   
+    .react-multi-carousel-item{
+        width: 40% !important;
+    }
+
+    .width-100{
+        width: 500%;
+    }

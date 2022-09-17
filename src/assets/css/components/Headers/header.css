@@ -117,7 +117,7 @@ nav.active .line-menu {
 .open .line-menu.start,
 .open .line-menu.mid,
 .open .line-menu.end {
-  transition-delay: 2s;
+  transition-delay: 1s;
 }
 
 .open .line-menu.start,

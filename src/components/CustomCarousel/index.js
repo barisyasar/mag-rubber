@@ -29,16 +29,31 @@ function CustomCarousel() {
           <img src="/assets/images/customCarousel1.jpeg"/>
         </div>
         <div>
-          <img src="/assets/images/customCarousel1.jpeg"/>
+          <img src="/assets/images/customCarousel2.jpeg"/>
         </div>
         <div>
-          <img src="/assets/images/customCarousel1.jpeg"/>
+          <img src="/assets/images/customCarousel3.jpeg"/>
         </div>
         <div>
-          <img src="/assets/images/customCarousel1.jpeg"/>
+          <img src="/assets/images/customCarousel4.jpeg"/>
         </div>
         <div>
-          <img src="/assets/images/customCarousel1.jpeg"/>
+          <img src="/assets/images/customCarousel5.jpeg"/>
+        </div>
+        <div>
+          <img src="/assets/images/customCarousel6.jpeg"/>
+        </div>
+        <div>
+          <img src="/assets/images/customCarousel7.jpeg"/>
+        </div>
+        <div>
+          <img src="/assets/images/customCarousel8.jpeg"/>
+        </div>
+        <div>
+          <img src="/assets/images/customCarousel9.jpeg"/>
+        </div>
+        <div>
+          <img src="/assets/images/customCarousel10.jpeg"/>
         </div>
       </Carousel>
     </div>

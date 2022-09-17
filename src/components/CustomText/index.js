@@ -6,7 +6,7 @@ export default function CustomText() {
     <section className="services-section">
       <div className="faded-text light">
         <div className="f-text">
-          <span>Time to Discover Mug Rubber</span>
+       <marquee className="marquee" behavior= "alternate"> Time to Discover Mag Rubber</marquee>
         </div>
       </div>
       <div className="auto-container">
@@ -16,6 +16,7 @@ export default function CustomText() {
           </div>
         </div>
       </div>
+     
     </section>
   );
 }

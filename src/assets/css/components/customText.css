@@ -1,7 +1,8 @@
 .services-section {
     position: relative;
-    padding: 110px 0px 80px;
-    background-color: #000;
+    padding: 74px 0px 80px;
+    background-color: #EDEDED;
+  
 }
 
 .faded-text {
@@ -11,27 +12,9 @@
     width: 100%;
     top: 55px;
     text-align: center;
-    font-family: 'Gilroy-Bold', sans-serif;}
-
-    .faded-text.light .f-text span {
-        color: #ffff;
-        font-size: 1em;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        position: relative;
-        display: block;
-        font-size: 100px;
-        line-height: 1em;
-        letter-spacing: -5px;
-        position: relative;
-        animation: mymove 5s infinite;
-        opacity: 0.1;
-        text-transform: uppercase;
-    
-    }
-    @keyframes mymove {
-        from {left: 0px;}
-        to {left: 50px;}
-      }
+    font-family: 'Gilroy-Bold', sans-serif;
+   
+}
 
     .auto-container {
     position: static;
@@ -53,3 +36,18 @@
         margin-bottom: 50px;
   
     }
+
+    .marquee{
+        color: #ffff;
+        font-size: 1em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        position: relative;
+        display: block;
+        font-size: 84px;
+        line-height: 1em;
+        letter-spacing: -5px;
+        text-transform: uppercase;
+        opacity: 0.1;
+    }
+
+   

@@ -6,21 +6,36 @@ nav {
   top: 0;
   padding: 0 100px !important;
   height: 90px;
-  z-index: 502;
+
 
 }
 
 nav.active {
-  background-color: black;
   border: none !important;
-  animation: topMove 1s;
-  -webkit-animation: topMove 1s;
+  animation: topMove 1s ease-in-out;
+  -webkit-animation: topMove 1s ease-in-out;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
+nav.active .btn-nav-wrapper,
 nav.active .btn-nav,
 nav.active .main-logo {
-  display: none;
+
+  animation: visiblity0 1s;
+  -webkit-animation: visiblity0 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
+
 
 .btn-nav {
   font-weight: 550;
@@ -31,7 +46,6 @@ nav.active .main-logo {
 
 nav.active .line-menu {
   background-color: white !important;
-
 }
 
 .btn-nav:hover {
@@ -163,18 +177,29 @@ nav.active .line-menu {
 
 @keyframes topMove {
   0% {
-    top: 0px
-  }
-
-  20% {
-    top: -90px
-  }
-
-  60% {
-    top: -90px
+    top: -90px;
+    background-color: black;
   }
 
   100% {
-    top: 0px
+    top: 0px;
+    background-color: black;
+    z-index: 502;
+  }
+}
+
+@keyframes visiblity0 {
+  0% {
+    visibility: visible;
+  }
+
+  20% {
+    visibility: hidden;
+    background-color: black;
+  }
+
+  100% {
+    visibility: hidden;
+    background-color: black;
   }
 }

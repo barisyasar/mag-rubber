@@ -5,34 +5,34 @@ nav {
   left: 0;
   top: 0;
   padding: 0 100px !important;
-  height: 90px;
-
+  height: var(--navBarHeight);
+  z-index: 500;
 
 }
 
 nav.active {
   border: none !important;
-  animation: topMove 1s ease-in-out;
-  -webkit-animation: topMove 1s ease-in-out;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+  background-color: var(--black);
+  z-index: 502;
+  /*animation: name time func delay iteration dir fill play;
+  */
+  transition: background-color 0s linear 0.8s, z-index 1s step-end;
+  -webkit-transition: background-color 0s linear 0.8s, z-index 1s step-end;
+  -moz-transition: background-color 0s linear 0.8s, z-index 1s step-end;
+  -ms-transition: background-color 0s linear 0.8s, z-index 1s step-end;
+  -o-transition: background-color 0s linear 0.8s, z-index 1s step-end;
 }
 
 nav.active .btn-nav-wrapper,
 nav.active .btn-nav,
 nav.active .main-logo {
-
-  animation: visiblity0 1s;
-  -webkit-animation: visiblity0 1s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  animation-delay: 1s;
+  animation: visiblity0 0.8s;
+  -webkit-animation: visiblity0 0.8s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  animation-delay: 0.8s;
   animation-fill-mode: forwards;
 }
 
@@ -45,7 +45,7 @@ nav.active .main-logo {
 }
 
 nav.active .line-menu {
-  background-color: white !important;
+  background-color: var(--white) !important;
 }
 
 .btn-nav:hover {
@@ -54,7 +54,7 @@ nav.active .line-menu {
 
 .btn-nav-wrapper {
   background-color: var(--gray) !important;
-  height: 90px;
+  height: var(--navBarHeight);
   display: flex;
   align-items: center;
 }
@@ -73,6 +73,7 @@ nav.active .line-menu {
 }
 
 .wrapper-menu.open {
+  transition-delay: 1s;
   transform: rotate(-45deg);
 }
 
@@ -88,10 +89,12 @@ nav.active .line-menu {
   transition: 0.25s ease-in-out;
 }
 
+.line-menu.end {
+  align-self: flex-end;
+
+}
 
 .open .line-menu.start {
-  transition-delay: 0.1s;
-  width: 100%;
   transform: translateY(7.5px) rotate(90deg);
   -webkit-transform: translateY(7.5px) rotate(90deg);
   -moz-transform: translateY(7.5px) rotate(90deg);
@@ -99,18 +102,11 @@ nav.active .line-menu {
   -o-transform: translateY(7.5px) rotate(90deg);
 }
 
-.line-menu.end {
-  align-self: flex-end;
-
-}
-
 .open .line-menu.mid {
-  display: none;
+  opacity: 0;
 }
 
 .open .line-menu.end {
-  transition-delay: 0.1s;
-  width: 100%;
   transform: translateY(-7.5px) rotate(0deg);
   -webkit-transform: translateY(-7.5px) rotate(0deg);
   -moz-transform: translateY(-7.5px) rotate(0deg);
@@ -118,6 +114,14 @@ nav.active .line-menu {
   -o-transform: translateY(-7.5px) rotate(0deg);
 }
 
+.open .line-menu.start,
+.open .line-menu.mid,
+.open .line-menu.end {
+  transition-delay: 2s;
+}
+
+.open .line-menu.start,
+.open .line-menu.end,
 .wrapper-menu:hover .line-menu.half {
   width: 100%;
 }
@@ -133,7 +137,6 @@ nav.active .line-menu {
   opacity: 0;
   visibility: hidden;
   opacity: 0;
-  visibility: hidden;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -141,7 +144,7 @@ nav.active .line-menu {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background-image: url("./triangles.svg");
+  background-image: url("../../../images/triangles.svg");
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
@@ -173,33 +176,4 @@ nav.active .line-menu {
 
 .page-transition.active .layer {
   width: 100%;
-}
-
-@keyframes topMove {
-  0% {
-    top: -90px;
-    background-color: black;
-  }
-
-  100% {
-    top: 0px;
-    background-color: black;
-    z-index: 502;
-  }
-}
-
-@keyframes visiblity0 {
-  0% {
-    visibility: visible;
-  }
-
-  20% {
-    visibility: hidden;
-    background-color: black;
-  }
-
-  100% {
-    visibility: hidden;
-    background-color: black;
-  }
 }

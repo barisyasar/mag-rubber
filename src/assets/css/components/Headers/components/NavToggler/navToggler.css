@@ -1,0 +1,8 @@
+.nav-toggler {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - var(--navBarHeight));
+    z-index: 1001;
+    top: var(--navBarHeight);
+    background-color: teal;
+}

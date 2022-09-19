@@ -8,8 +8,8 @@
 }
 
 .nav-toggler.active {
-    animation: fadeInRight 1.2s ease-in-out 0.5s;
-    -webkit-animation: fadeInRight 1.2s ease-in-out 0.5s;
+    animation: fadeInRight 1.2s ease-in-out 0.5ms;
+    -webkit-animation: fadeInRight 1.2s ease-in-out 0.5ms;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
@@ -53,7 +53,7 @@
 
 .languages span {
     color: var(--white);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     margin: 0 10px;
 }

@@ -175,10 +175,13 @@
   background-color: transparent !important;
   color: inherit;
   transition: all .5s;
-  border-top: 2px solid #fff !important;
+   border-top: 2px solid #fff !important;
   border-bottom: 2px solid #fff !important;
   border-left: 2px solid #fff !important;
   border-right: 2px solid #fff !important;
+}
+.circle-button.active {
+  background-color: white !important;
 }
 
 .carousel-inner {
@@ -237,4 +240,9 @@
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+
+
+.rounded-circle circle-button active{
+  background-color: black !important;
 }

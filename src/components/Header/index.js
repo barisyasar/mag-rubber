@@ -125,7 +125,7 @@ export default function Header() {
                 </li>
               </ul>
             </div>
-            <div className="col-4">
+            <div className="col-4 px-5">
               <br />
               <br />
               <br />
@@ -166,7 +166,7 @@ export default function Header() {
                 </li>
               </ul>
             </div>
-            <div className="col-3 offset-1">
+            <div className="col-4 px-5">
               <p className="page-title">the group</p>
               <ul>
                 <li>

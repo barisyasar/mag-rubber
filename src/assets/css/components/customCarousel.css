@@ -1,0 +1,92 @@
+.carousel{
+    background-color: #EDEDED;
+    padding: 0px 0px 80px;
+   
+}
+
+ .width-40{
+    width: 40%;
+} 
+
+.carousel-text{
+    font-weight: bolder;
+    letter-spacing: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 40px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: var(--black) !important;
+    letter-spacing:8px;
+    padding: 10px 10px 10px 10px;
+}
+
+.carousel-text p {
+    margin-top: -114px !important;
+}
+
+
+.triangle{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: 8px;
+  
+    
+}
+
+.triangle-img{
+    width: 8%;
+    opacity: 0.3;
+}
+
+.carousel-button{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-divider{
+    border-top: 5px solid #000;
+    margin-top: -13px;
+}
+
+
+    .divider-triangle{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 10px 10px 10px ;
+    }
+
+
+   /*  .react-multi-carousel-item{
+        width: 100% !important;
+    } */
+
+    .width-100{
+        width: 50%;
+    }
+
+    .width-350{
+        width: 350px;
+    }
+   
+    .width-250{
+        width: 250px;
+    }
+   
+    .p-t-40{
+        padding-top: 40px;
+    }
+
+    .react-multi-carousel-item{
+        width: 450px!important;
+    }
+
+    .react-multi-carousel-dot button{
+        margin-right: 10vh !important;
+    
+    }
+

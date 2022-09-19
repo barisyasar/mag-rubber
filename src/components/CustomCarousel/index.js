@@ -1,5 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import "../../assets/css/components/customCarousel.css";
+import "../../assets/css/components/customText.css";
+
 
 const responsive = {
   superLargeDesktop: {
@@ -23,39 +26,90 @@ const responsive = {
 
 function CustomCarousel() {
   return (
-    <div>
-      <Carousel responsive={responsive} draggable={false}  centerMode={false}>
-        <div>
-          <img src="/assets/images/customCarousel1.jpeg"/>
+    <div className="carousel">
+    <div className="triangle"><img className="triangle-img" src="/assets/images/mag-triangle-right.png" /></div>
+    <div className=" carousel-text"><p>Product Range</p></div>
+     
+      <Carousel
+        className="inner-carousel"
+        responsive={responsive}
+        draggable={false}
+        showDots
+      centerMode
+     
+      >
+        <div >
+          <img className="width-350" src="/assets/images/customCarousel1.jpeg" />
+        </div>
+        <div >
+          <img className="width-250 p-t-40" src="/assets/images/customCarousel2.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel2.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel3.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel3.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel4.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel4.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel5.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel5.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel6.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel6.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel7.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel7.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel8.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel8.jpeg"/>
+          <img className="width-350" src="/assets/images/customCarousel9.jpeg" />
         </div>
         <div>
-          <img src="/assets/images/customCarousel9.jpeg"/>
+          <img
+            className="width-250 p-t-40 "
+            src="/assets/images/customCarousel10.jpeg"
+          />
         </div>
         <div>
-          <img src="/assets/images/customCarousel10.jpeg"/>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel11.jpeg"
+          />
+        </div>
+        <div>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel12.jpeg"
+          />
+        </div>
+        <div>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel13.jpeg"
+          />
+        </div>
+        <div>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel14.jpeg"
+          />
+        </div>
+        <div>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel15.jpeg"
+          />
+        </div>
+        <div>
+          <img
+            className="width-250 p-t-40"
+            src="/assets/images/customCarousel16.jpeg"
+          />
         </div>
       </Carousel>
+      <hr className="carousel-divider">
+        </hr>
     </div>
   );
 }

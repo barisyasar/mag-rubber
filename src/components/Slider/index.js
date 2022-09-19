@@ -14,7 +14,7 @@ export default function Slider() {
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            className="active rounded-circle  circle-button"
+            className="active rounded-circle circle-button"
             aria-current="true"
             aria-label="Slide 1"
           ></button>

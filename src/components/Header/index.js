@@ -26,11 +26,19 @@ export default function Header() {
       lightbox.remove("active");
       nav.remove("active");
       toggleContentCl.remove("active");
+
+      lightbox.add("in-active");
+      nav.add("in-active");
+      toggleContentCl.add("in-active");
     } else {
       classList.add("open");
       lightbox.add("active");
       nav.add("active");
       toggleContentCl.add("active");
+
+      lightbox.remove("in-active");
+      nav.remove("in-active");
+      toggleContentCl.remove("in-active");
     }
   };
 

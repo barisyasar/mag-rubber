@@ -7,7 +7,6 @@ nav {
   padding: 0 100px !important;
   height: var(--navBarHeight);
   z-index: 500;
-
 }
 
 nav.active {
@@ -35,7 +34,6 @@ nav.active .main-logo {
   animation-delay: 0.8s;
   animation-fill-mode: forwards;
 }
-
 
 .btn-nav {
   font-weight: 550;
@@ -91,7 +89,6 @@ nav.active .line-menu {
 
 .line-menu.end {
   align-self: flex-end;
-
 }
 
 .open .line-menu.start {
@@ -136,17 +133,15 @@ nav.active .line-menu {
   z-index: 501;
   opacity: 0;
   visibility: hidden;
+  background-image: url("../../../images/triangles.svg");
   opacity: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
+  -webkit-transition: all 0.5s ease 0.4s;
+  -moz-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.4s;
+  -ms-transition: all 0.5s ease 0.4s;
+  -o-transition: all 0.5s ease 0.4s;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background-image: url("../../../images/triangles.svg");
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
 }
 
 .page-transition .layer {
@@ -156,24 +151,31 @@ nav.active .line-menu {
   right: 0;
   top: 0;
   background-color: var(--black);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
+  -webkit-transition: all 0.3s ease 0.3s;
+  -moz-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  transition-delay: 0.3s;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease 0.3s;
+  -o-transition: all 0.3s ease 0.3s;
 }
 
 .page-transition.active {
   opacity: 1;
   visibility: visible;
   right: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .page-transition.active .layer {
   width: 100%;
+  transition: all 0.5s ease 0.3s;
+  -ms-transition: all 0.5s ease 0.3s;
+  -o-transition: all 0.5s ease 0.3s;
+  -webkit-transition: all 0.5s ease 0.3s;
+  -moz-transition: all 0.5s ease 0.3s;
 }

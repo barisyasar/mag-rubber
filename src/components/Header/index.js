@@ -3,6 +3,9 @@ import "../../assets/css/components/Headers/header.css";
 import { Link } from "react-router-dom";
 import "../../assets/css/components/Headers/components/NavToggler/navToggler.css";
 
+import triangle from "../../assets/images/triangles.svg";
+import trianglesReverse from "../../assets/images/trianglesReverse.svg";
+
 export default function Header() {
   const links = ["about us", "products", "download", "contact"].map((link) => (
     <Link className="btn-nav align-self-center" to="/">
@@ -22,23 +25,19 @@ export default function Header() {
     const toggleContentCl = toggleContent.current.classList;
 
     if (classList.contains("open")) {
-      classList.remove("open");
-      lightbox.remove("active");
-      nav.remove("active");
-      toggleContentCl.remove("active");
-
-      lightbox.add("in-active");
-      nav.add("in-active");
-      toggleContentCl.add("in-active");
+      navLightbox.current.style.backgroundImage = `url(${trianglesReverse})`;
+      setTimeout(() => {
+        classList.remove("open");
+        lightbox.remove("active");
+        nav.remove("active");
+        toggleContentCl.remove("active");
+      }, 100);
     } else {
+      navLightbox.current.style.backgroundImage = `url(${triangle})`;
       classList.add("open");
       lightbox.add("active");
       nav.add("active");
       toggleContentCl.add("active");
-
-      lightbox.remove("in-active");
-      nav.remove("in-active");
-      toggleContentCl.remove("in-active");
     }
   };
 

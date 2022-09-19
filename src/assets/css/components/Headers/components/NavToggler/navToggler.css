@@ -6,26 +6,21 @@
   top: var(--navBarHeight) / 2;
   left: 100%;
   opacity: 0;
-  transition: all 0.7s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
 }
 
 .nav-toggler.active {
   left: 0%;
   opacity: 1;
-  transition: all 1s ease-in-out 0.1s;
-  -webkit-transition: all 1s ease-in-out 0.1s;
-  -moz-transition: all 1s ease-in-out 0.1s;
-  -ms-transition: all 1s ease-in-out 0.1s;
-  -o-transition: all 1s ease-in-out 0.1s;
-  /*animation: fadeInRight 1.2s ease-in-out 0.5ms;
-  -webkit-animation: fadeInRight 1.2s ease-in-out 0.5ms;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-  */
+  transition: all 0.7s ease-in-out 0.1s;
+  -webkit-transition: all 0.7s ease-in-out 0.1s;
+  -moz-transition: all 0.7s ease-in-out 0.1s;
+  -ms-transition: all 0.7s ease-in-out 0.1s;
+  -o-transition: all 0.7s ease-in-out 0.1s;
 }
 
 .nav-toggler .page-title {

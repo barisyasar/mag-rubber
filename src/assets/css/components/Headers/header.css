@@ -133,15 +133,12 @@ nav.active .line-menu {
   z-index: 501;
   opacity: 0;
   visibility: hidden;
-  background-image: url("../../../images/triangles.svg");
-  opacity: 0;
-  -webkit-transition: all 0.5s ease 0.4s;
-  -moz-transition: all 0.5s ease 0.4s;
-  transition: all 0.5s ease 0.4s;
-  -ms-transition: all 0.5s ease 0.4s;
-  -o-transition: all 0.5s ease 0.4s;
-  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  /* background-image: url("../../../images/trianglesReverse.svg"); */
+  transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
+  -ms-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
+  -o-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
+  -webkit-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
+  -moz-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
 }
 
 .page-transition .layer {
@@ -151,24 +148,26 @@ nav.active .line-menu {
   right: 0;
   top: 0;
   background-color: var(--black);
-  -webkit-transition: all 0.3s ease 0.3s;
-  -moz-transition: all 0.3s ease 0.3s;
-  transition: all 0.3s ease 0.3s;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  -ms-transition: all 0.3s ease 0.3s;
-  -o-transition: all 0.3s ease 0.3s;
+  transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
 }
 
 .page-transition.active {
+  /* background-image: url("../../../images/triangles.svg"); */
   opacity: 1;
   visibility: visible;
   right: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
+
   transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
 }
 
 .page-transition.active .layer {

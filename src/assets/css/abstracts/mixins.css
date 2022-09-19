@@ -1,0 +1,35 @@
+@keyframes topMove {
+    0% {
+        top: -90px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes visiblity0 {
+    0% {
+        visibility: visible;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+        opacity: 1;
+    }
+}

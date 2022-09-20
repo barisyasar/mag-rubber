@@ -30,14 +30,27 @@ function CustomCarousel() {
       <div className="wrapper">
         <div className="content_page overflow-hidden index_content">
           <section id="home_categories">
-            <div className="triangle">
-              <img
-                className="triangle-img"
-                src="/assets/images/mag-triangle-right.png"
-              />
-            </div>
-            <div className="product-text">
-              <p>Product Range</p>
+            <div className="services-div">
+              <div className="faded-text light">
+                <div className="f-text">
+                  <marquee
+                    id="my-text"
+                    className="marquee"
+                    scrollamount="8"
+                    behavior="alternate"
+                  >
+                    Time to Discover
+                  </marquee>
+                </div>
+                <div className="product-triangle">
+                  <img
+                    className="triangle-img"
+                    src="/assets/images/mag-triangle-down.png"
+                  />
+                   <p>Product Range</p>
+                 
+                </div>
+              </div>
             </div>
             <div
               id="home-categories-carousel"
@@ -54,10 +67,10 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel1.jpeg" />
                   </div>
-                  
+
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -88,11 +101,10 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel2.jpeg" />
                   </div>
-                  
 
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -122,11 +134,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel3.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -146,7 +158,7 @@ function CustomCarousel() {
                 </a>
               </div>
               <div
-                className="category-carousel-item owl-carousel-item filterable-item oleodinamica_2mp"
+                className="category-carousel-item owl-carousel-item filterable-item"
                 data-bs-interval={10000}
               >
                 <a
@@ -156,11 +168,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel4.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -190,11 +202,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel5.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -224,11 +236,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel6.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -258,11 +270,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel7.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -292,11 +304,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel8.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -326,11 +338,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel9.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -360,11 +372,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel10.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -394,11 +406,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel11.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -428,11 +440,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel12.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -462,11 +474,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel13.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -496,11 +508,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel14.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"
@@ -530,11 +542,11 @@ function CustomCarousel() {
                   <div className="icon">
                     <img src="/assets/images/customCarousel15.jpeg" />
                   </div>
-                  
+
                   <div className="d-flex flex-column align-items-center upper-name red_shape"></div>
                   <div className="item-position-container mt-3 mb-3 position-relative">
                     <div className="item-position">
-                      <svg viewBox="200 200 120 120">
+                      <svg viewBox="210 300 80 80">
                         <polygon
                           points="250,60 100,400 400,400"
                           class="triangle"

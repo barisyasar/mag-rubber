@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <Slider />
+      
       <CustomCarousel />
       <CustomText />
       <About />

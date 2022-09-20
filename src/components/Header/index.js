@@ -1,18 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "../../assets/css/components/Headers/header.css";
 import { Link } from "react-router-dom";
 import "../../assets/css/components/Headers/components/NavToggler/navToggler.css";
-
 import triangle from "../../assets/images/triangles.svg";
 import trianglesReverse from "../../assets/images/trianglesReverse.svg";
+import { menuScroll } from "../../utils/scroll";
 
 export default function Header() {
-  const links = ["about us", "products", "download", "contact"].map((link) => (
-    <Link className="btn-nav align-self-center" to="/">
-      {link}
-    </Link>
-  ));
-
   const toggle = useRef();
   const navLightbox = useRef();
   const navMenu = useRef();
@@ -41,9 +35,22 @@ export default function Header() {
     }
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => menuScroll(navMenu));
+    return () =>
+      window.removeEventListener("scroll", () => menuScroll(navMenu));
+  }, []);
+
+  const links = ["about us", "products", "download", "contact"].map((link) => (
+    <Link className="btn-nav align-self-center" to="/">
+      {link}
+    </Link>
+  ));
+
   return (
     <header>
       <nav
+        id="navbar"
         className="container-fluid border-bottom d-flex justify-content-between align-items-center"
         ref={navMenu}
       >

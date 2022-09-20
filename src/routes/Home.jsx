@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import CustomCarousel from "../components/CustomCarousel";
 import CustomText from "../components/CustomText";
 import About from "../components/About";
+import CardList from "../components/CardList";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <CustomCarousel />
       <CustomText />
       <About />
+      <CardList />
     </Layout>
   );
 }

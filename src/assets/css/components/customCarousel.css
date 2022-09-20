@@ -8,7 +8,7 @@
     width: 40%;
 } 
 
-.product-text{
+.product-triangle p{
     font-weight: bolder;
     letter-spacing: 8px;
     position: relative;
@@ -28,8 +28,9 @@
 }
 
 .triangle-img{
-    width: 8%;
-    opacity: 0.3;
+ 
+    opacity: 0.2;
+    
 }
 
 .carousel-button{
@@ -79,5 +80,90 @@
     
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lexend:wght@600&display=swap');
+.services-section {
+    position: relative;
+    padding: 0px 0px 50px;
+    background-color: #EDEDED;
+  
+}
+
+/* .faded-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    top: -27px;
+    text-align: center;
+} */
+
+    .auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;}
+
+    .sec-title .sub-title h2 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        font-size: 48px;
+        line-height: 1.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--gold) !important;
+        letter-spacing: 3px;
+       bottom: 7vh;
+       font-family: 'Lexend', sans-serif;
+
+  
+    }
+
+   /*  .marquee{
+        color: #EDEDED;
+        font-size: 1em;
+        text-shadow: -2px 0 #fff, -2px 0, 0 2px , 0 -2px #fff,
+        1px 1px , -1px -1px , 1px -1px , -1px 1px;
+        position: relative;
+        display: block;
+        font-size: 128px;
+        line-height: 1em;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        opacity: 0.9;
+        font-weight: 100;
+       
+    } */
+
+    .faded-text.light .f-text .marquee {
+        text-shadow: -1px -1px 0 rgb(500 500 / 100%), 1px -1px 0 rgb(500 500 / 100%), -1px 1px 0 rgb(500 500  / 100%), 3px 3px 0 rgb(500 500  / 100%)}
+
+    .faded-text .f-text .marquee {
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        font-size: 150px;
+        line-height: 1em;
+        letter-spacing: -5px;
+        color: #EDEDED;
+        text-shadow: -1px -1px 0 rgb(190, 190, 190), 1px -1px 0 rgb(190, 190, 190), -1px 1px 0 rgb(190, 190, 190), 1px 1px 0 rgb(190, 190, 190);
+        font-family: 'Lexend', sans-serif;
+    }
+
+    .product-triangle{
+        margin-top: -13vh;
+    }
+  
+    .owl-next{
+        width: 70px;
+    }
+
+    .owl-next img{
+        width: 30px
+    }
+    .owl-prev img{
+        width: 30px
+    }
 
     

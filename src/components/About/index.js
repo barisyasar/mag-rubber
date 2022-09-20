@@ -3,7 +3,7 @@ import "../../assets/css/components/about.css";
 
 export default function About() {
   return (
-    <section className="about-section">
+    <section className="container-fluid about-section">
       <div className="row">
         <div className="col-5">
           <div className="about-img">

@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lexend:wght@600&display=swap');
 .services-section {
     position: relative;
-    padding: 0px 0px 80px;
+    padding: 0px 0px 50px;
     background-color: #EDEDED;
   
 }
 
-.faded-text {
+/* .faded-text {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     top: -27px;
     text-align: center;
-}
+} */
 
     .auto-container {
     position: static;
@@ -31,24 +32,42 @@
         text-transform: uppercase;
         color: var(--gold) !important;
         letter-spacing: 3px;
-        margin-bottom: 50px;
+       bottom: 7vh;
+       font-family: 'Lexend', sans-serif;
+
   
     }
 
-    .marquee{
+   /*  .marquee{
         color: #EDEDED;
         font-size: 1em;
         text-shadow: -2px 0 #fff, -2px 0, 0 2px , 0 -2px #fff,
         1px 1px , -1px -1px , 1px -1px , -1px 1px;
         position: relative;
         display: block;
-        font-size: 84px;
+        font-size: 128px;
         line-height: 1em;
         letter-spacing: 8px;
         text-transform: uppercase;
         opacity: 0.9;
         font-weight: 100;
-        font-family:'Gilroy-Bold', sans-serif;
+       
+    } */
+
+    .faded-text.light .f-text .marquee {
+        color: #EAEAEA;
+        text-shadow: -1px -1px 0 rgb(255 255 255 / 50%), 1px -1px 0 rgb(255 255 255 / 50%), -1px 1px 0 rgb(255 255 255 / 50%), 1px 1px 0 rgb(255 255 255 / 50%)}
+
+    .faded-text .f-text .marquee {
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        font-size: 150px;
+        line-height: 1em;
+        letter-spacing: -5px;
+        color: #EDEDED;
+        text-shadow: -1px -1px 0 rgb(0 0 0 / 5%), 1px -1px 0 rgb(0 0 0 / 5%), -1px 1px 0 rgb(0 0 0 / 5%), 1px 1px 0 rgb(0 0 0 / 5%);
+        font-family: 'Lexend', sans-serif;
     }
 
   

@@ -1,3 +1,81 @@
-.card-list {
-  height: 100vh;
+.card-wrapper {
+  height: 75vh;
+  background-color: var(--gray);
+}
+.card-wrapper .card-list .card {
+  position: relative;
+  background-color: var(--gray);
+  height: 500px;
+  width: 500px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.card-wrapper .card-list .card:hover {
+  border-color: var(--black);
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.36);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.card-wrapper .card-list .card .triangle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: var(--gold);
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  -o-transform: translate(-50%, -50%) rotate(45deg);
+
+  border-bottom-right-radius: 15px;
+}
+
+.card-wrapper .card-list .card:hover .triangle {
+  top: 0;
+}
+.card-wrapper .card-list .card .triangle:first-child {
+  opacity: 1;
+  transition: top 1s ease-in-out 0.3s;
+  -webkit-transition: top 1s ease-in-out 0.3s;
+  -moz-transition: top 1s ease-in-out 0.3s;
+  -ms-transition: top 1s ease-in-out 0.3s;
+  -o-transition: top 1s ease-in-out 0.3s;
+}
+.card-wrapper .card-list .card .triangle:nth-child(2) {
+  width: 275px;
+  height: 275px;
+  opacity: 0.5;
+  transition: top 1s ease-in-out 0.2s;
+  -webkit-transition: top 1s ease-in-out 0.2s;
+  -moz-transition: top 1s ease-in-out 0.2s;
+  -ms-transition: top 1s ease-in-out 0.2s;
+  -o-transition: top 1s ease-in-out 0.2s;
+}
+.card-wrapper .card-list .card .triangle:nth-child(3) {
+  opacity: 0.25;
+  width: 350px;
+  height: 350px;
+  transition: top 1s ease-in-out;
+  -webkit-transition: top 1s ease-in-out;
+  -moz-transition: top 1s ease-in-out;
+  -ms-transition: top 1s ease-in-out;
+  -o-transition: top 1s ease-in-out;
 }

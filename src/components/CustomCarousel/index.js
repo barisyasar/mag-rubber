@@ -2,7 +2,6 @@ import React from "react";
 
 import "react-multi-carousel/lib/styles.css";
 import "../../assets/css/components/customCarousel.css";
-import "../../assets/css/components/customText.css";
 
 const responsive = {
   superLargeDesktop: {

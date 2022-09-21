@@ -23,7 +23,20 @@ const responsive = {
   },
 };
 
+const carouselItems=[
+  {
+    "id":1,
+    "name":"product",
+    "image_url":"/assets/images/customCarousel1.png",
+    "line_image_url":"",
+    "triangle_image_url":""
+  }
+]
+
 function CustomCarousel() {
+
+  const content = carouselItems.map((carousel)=><div></div>)
+
   return (
     <React.Fragment>
       <div className="wrapper">

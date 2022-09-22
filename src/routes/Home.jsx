@@ -5,15 +5,17 @@ import CustomCarousel from "../components/CustomCarousel";
 import About from "../components/About";
 import CardList from "../components/CardList";
 import PopOut from "../components/PopOut";
+import ImageAnimation from "../components/ImageAnimation";
 
 export default function Home() {
   return (
     <Layout>
       <Slider />
       <CustomCarousel />
-      <About />
+      <About /> 
+     <PopOut/>
       <CardList /> 
-      <PopOut/>
+      <ImageAnimation/>
     </Layout>
   );
 }

@@ -41,7 +41,7 @@ nav.active .main-logo {
 .btn-nav {
   font-weight: 400;
   text-transform: uppercase;
-  margin: 0 25px;
+  margin: 0 27px;
   letter-spacing: 1.25px;
 }
 
@@ -58,7 +58,7 @@ nav.active .line-menu {
   height: var(--navBarHeight);
   display: flex;
   align-items: center;
-  margin: 0 22px;
+  margin: 0 15px 0 30px !important;
 }
 
 .wrapper-menu {

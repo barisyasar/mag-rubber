@@ -1,5 +1,5 @@
 .card-wrapper {
-  height: 75vh;
+  height: 90vh;
   background-color: var(--gray);
 }
 .card-wrapper .card-list .card {
@@ -44,13 +44,9 @@
   -moz-transform: translate(-50%, -50%) rotate(45deg);
   -ms-transform: translate(-50%, -50%) rotate(45deg);
   -o-transform: translate(-50%, -50%) rotate(45deg);
-
   border-bottom-right-radius: 15px;
 }
 
-.card-wrapper .card-list .card:hover .triangle {
-  top: 0;
-}
 .card-wrapper .card-list .card .triangle:first-child {
   opacity: 1;
   transition: top 1s ease-in-out 0.3s;
@@ -78,4 +74,8 @@
   -moz-transition: top 1s ease-in-out;
   -ms-transition: top 1s ease-in-out;
   -o-transition: top 1s ease-in-out;
+}
+
+.card-wrapper .card-list .card:hover .triangle {
+  top: 0;
 }

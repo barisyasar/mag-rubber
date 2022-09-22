@@ -136,7 +136,6 @@ nav.active .line-menu {
   z-index: 501;
   opacity: 0;
   visibility: hidden;
-  /* background-image: url("../../../images/trianglesReverse.svg"); */
   transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
   -ms-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
   -o-transition: all 0.9s cubic-bezier(0.86, 0, 0.07, 1) 0.1s;
@@ -161,11 +160,9 @@ nav.active .line-menu {
 }
 
 .page-transition.active {
-  /* background-image: url("../../../images/triangles.svg"); */
   opacity: 1;
   visibility: visible;
   right: 0;
-
   transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;

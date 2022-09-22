@@ -6,18 +6,16 @@ import About from "../components/About";
 import CardList from "../components/CardList";
 import PopOut from "../components/PopOut";
 import ImageAnimation from "../components/ImageAnimation";
-import ContinuousImprovement from "../components/ContinuousImprovement";
 
 export default function Home() {
   return (
     <Layout>
       <Slider />
       <CustomCarousel />
-      <About />
-      <PopOut />
-      <CardList />
-      <ImageAnimation />
-      <ContinuousImprovement />
+      <About /> 
+     <PopOut/>
+      <CardList /> 
+      <ImageAnimation/>
     </Layout>
   );
 }

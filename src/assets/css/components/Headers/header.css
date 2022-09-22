@@ -4,7 +4,7 @@ nav {
   width: 100%;
   left: 0;
   top: 0px;
-  padding: 0 100px !important;
+  padding: 0 60px !important;
   height: var(--navBarHeight);
   z-index: 500;
   transition: top 0.3s;
@@ -39,9 +39,9 @@ nav.active .main-logo {
 }
 
 .btn-nav {
-  font-weight: 550;
+  font-weight: 400;
   text-transform: uppercase;
-  margin: 0 17.5px;
+  margin: 0 25px;
   letter-spacing: 1.25px;
 }
 
@@ -58,11 +58,11 @@ nav.active .line-menu {
   height: var(--navBarHeight);
   display: flex;
   align-items: center;
+  margin: 0 22px;
 }
 
 .wrapper-menu {
-  margin-left: 25px;
-  margin-right: 10px;
+  margin-left: 40px;
   width: 20px;
   height: 18px;
   display: flex;

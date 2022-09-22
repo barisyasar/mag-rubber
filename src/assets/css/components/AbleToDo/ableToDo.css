@@ -1,0 +1,35 @@
+.able-to-do {
+  height: 90vh;
+  background: var(--medium-gray);
+  padding: 10vh 0;
+}
+.able-to-do .able-to-do-heading {
+  color: var(--white);
+  margin-bottom: 7.5vh;
+}
+
+.able-to-do .card-container {
+  gap: 25px;
+}
+.able-to-do .able-to-do-card {
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+
+.able-to-do .able-to-do-card:hover {
+  background-color: var(--dark-gray);
+  box-shadow: 15px 15px 30px rgb(0 0 0 / 30%);
+}
+
+.able-to-do .able-to-do-card .card-header {
+  color: var(--white);
+}
+.able-to-do .able-to-do-card .card-text {
+  color: var(--grayish-white);
+}

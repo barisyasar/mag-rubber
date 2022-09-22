@@ -1,10 +1,9 @@
-import React, { useRef, useEffect } from "react";
-import "../../assets/css/components/Headers/header.css";
-import { Link } from "react-router-dom";
-import "../../assets/css/components/Headers/components/NavToggler/navToggler.css";
-import triangle from "../../assets/images/triangles.svg";
-import trianglesReverse from "../../assets/images/trianglesReverse.svg";
-import { menuScroll } from "../../utils/scroll";
+import React, { useRef } from 'react';
+import '../../assets/css/components/Headers/header.css';
+import { Link } from 'react-router-dom';
+import '../../assets/css/components/Headers/components/NavToggler/navToggler.css';
+import triangle from '../../assets/images/triangles.svg';
+import trianglesReverse from '../../assets/images/trianglesReverse.svg';
 
 export default function Header() {
   const toggle = useRef();
@@ -18,24 +17,24 @@ export default function Header() {
     const nav = navMenu.current.classList;
     const toggleContentCl = toggleContent.current.classList;
 
-    if (classList.contains("open")) {
+    if (classList.contains('open')) {
       navLightbox.current.style.backgroundImage = `url(${trianglesReverse})`;
       setTimeout(() => {
-        classList.remove("open");
-        lightbox.remove("active");
-        nav.remove("active");
-        toggleContentCl.remove("active");
+        classList.remove('open');
+        lightbox.remove('active');
+        nav.remove('active');
+        toggleContentCl.remove('active');
       }, 100);
     } else {
       navLightbox.current.style.backgroundImage = `url(${triangle})`;
-      classList.add("open");
-      lightbox.add("active");
-      nav.add("active");
-      toggleContentCl.add("active");
+      classList.add('open');
+      lightbox.add('active');
+      nav.add('active');
+      toggleContentCl.add('active');
     }
   };
 
-  const links = ["about us", "products", "download", "contact"].map((link) => (
+  const links = ['about us', 'products', 'download', 'contact'].map((link) => (
     <Link className="btn-nav align-self-center" to="/">
       {link}
     </Link>

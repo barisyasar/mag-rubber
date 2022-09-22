@@ -1,7 +1,10 @@
 :root {
-    --white: #fff;
-    --black: #000;
-    --gold: #b78b39;
-    --gray: #EAEAEA;
-    --navBarHeight: 10vh;
+  --white: #fff;
+  --grayish-white: #bcbcbd;
+  --black: #000;
+  --gold: #b78b39;
+  --gray: #eaeaea;
+  --medium-gray: rgb(29, 29, 29);
+  --dark-gray: #161619;
+  --navBarHeight: 10vh;
 }

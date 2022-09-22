@@ -60,7 +60,7 @@ function CustomCarousel() {
                     className="triangle-img"
                     src="/assets/images/mag-triangle-down.png"
                   />
-                   <p>Product Range</p>
+                   <h2>Product Range</h2>
                  
                 </div>
               </div>

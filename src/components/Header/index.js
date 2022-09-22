@@ -35,12 +35,6 @@ export default function Header() {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => menuScroll(navMenu));
-    return () =>
-      window.removeEventListener("scroll", () => menuScroll(navMenu));
-  }, []);
-
   const links = ["about us", "products", "download", "contact"].map((link) => (
     <Link className="btn-nav align-self-center" to="/">
       {link}

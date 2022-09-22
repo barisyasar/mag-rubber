@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import CustomCarousel from "../components/CustomCarousel";
 import About from "../components/About";
 import CardList from "../components/CardList";
+import PopOut from "../components/PopOut";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <Slider />
       <CustomCarousel />
       <About />
-      <CardList />
+      <CardList /> 
+      <PopOut/>
     </Layout>
   );
 }

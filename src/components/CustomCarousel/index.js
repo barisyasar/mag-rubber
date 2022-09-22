@@ -1,7 +1,8 @@
 import React from "react";
 
 import "react-multi-carousel/lib/styles.css";
-import "../../assets/css/components/customCarousel.css";
+import "../../assets/css/components/CustomCarousel/style.css";
+
 
 const responsive = {
   superLargeDesktop: {
@@ -35,7 +36,7 @@ const carouselItems=[
 
 function CustomCarousel() {
 
-  const content = carouselItems.map((carousel)=><div></div>)
+
 
   return (
     <React.Fragment>
@@ -68,14 +69,11 @@ function CustomCarousel() {
               id="home-categories-carousel"
               className="categories-carousel owl-carousel owl-theme filterable-items"
             >
-              <div
-                className="category-carousel-item owl-carousel-item filterable-item oleodinamica_2mp"
-                data-bs-interval={10000}
-              >
-                <a
-                  alt="Visualizza prodotti oleodinamici MONOBLOCCHI CETOP"
-                  href="prodotti\monoblocchi-cetop.html"
-                >
+              
+              <div className="category-carousel-item owl-carousel-item filterable-item oleodinamica_2mp"
+                data-bs-interval={10000}>
+                <a alt="Visualizza prodotti oleodinamici MONOBLOCCHI CETOP"
+                  href="prodotti\monoblocchi-cetop.html">
                   <div className="icon">
                     <img src="/assets/images/customCarousel1.jpeg" />
                   </div>

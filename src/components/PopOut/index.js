@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/components/popOut.css";
+import "../../assets/css/components/PopOut/style.css";
 
 export default function PopOut() {
   return (

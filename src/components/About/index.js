@@ -1,25 +1,22 @@
 import React from "react";
-import "../../assets/css/components/about.css";
+import "../../assets/css/components/About/style.css";
+
 
 export default function About() {
   return (
     <section className="container-fluid about-section">
       <div className="row">
-        <div className="col-5">
-          <div className="about-img">
-            <img className="width-80" src="/assets/images/about-01.png" />
+        <div className="col-xl-4 col-md-6">
+          <div className="left-image">
+            <img src="/assets/images/about-01.png" />
           </div>
         </div>
-        <div className="col-1">
-          {" "}
-          <div className="about-img">
-            <img
-              className="large-img"
+        <div className="col-xl-1 col-md-2">
+            <img  className="center-image"
               src="/assets/images/mag-triangle-right.png"
             />
-          </div>
         </div>
-        <div className="col-6">
+        <div className="col-xl-7 col-md-4">
           <div className="about-text">
             <p>
               Our Company Gökçek A.Ş which was established in 1968, has become a
@@ -29,9 +26,9 @@ export default function About() {
             </p>
           </div>
           <div className="about-button">
-            <button type="button" class="btn btn-outline">
+            <button type="button" >
               Learn More
-            </button>{" "}
+            </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/components/slider.css";
+import "../../assets/css/components/Slider/style.css";
 
 export default function Slider() {
   return (

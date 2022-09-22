@@ -1,0 +1,35 @@
+.about-section{
+    background-color: #EDEDED;
+padding: 50px 10px 10px 10px;
+display: flex;
+
+}
+
+.about-text p {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 5vh;
+   
+}
+
+.about-button button{
+    border: 3px solid #b78b39;
+    border-radius: 21vh;
+    width: 24vh;
+    height: 8vh;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.about-button button:hover{
+    background-color: #b78b39;
+}
+
+.center-image{
+    width: 80%;
+    position: relative;
+    display: flex;
+    top: 20%;
+}

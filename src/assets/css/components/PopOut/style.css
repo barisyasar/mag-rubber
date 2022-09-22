@@ -4,6 +4,7 @@
 	text-align: center;
 	 animation: sliding-background 40s linear infinite;
 	 text-align: center;
+
 }
 .pop-out-title-num {
 	 background: white;
@@ -31,7 +32,7 @@
 	 mix-blend-mode: lighten;
 	 text-transform: uppercase;
 	 text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black, 16px 16px black, 17px 17px black, 18px 18px black, 19px 19px black, 20px 20px black, 21px 21px black, 22px 22px black, 23px 23px black, 24px 24px black, 25px 25px black, 26px 26px black, 27px 27px black, 28px 28px black, 29px 29px black, 30px 30px black, 31px 31px black, 32px 32px black, 33px 33px black, 34px 34px black, 35px 35px black;
-	 padding:0px 200px 100px 0px;
+	 padding:0px 0px 100px 0px;
 }
  .pop-out-title:before {
 	 margin-left: -1%;

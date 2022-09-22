@@ -1,5 +1,5 @@
-import React from "react";
-import "../../assets/css/components/Slider/style.css";
+import React from 'react';
+import '../../assets/css/components/Slider/style.css';
 
 /* const Slider = [
   {
@@ -10,6 +10,7 @@ import "../../assets/css/components/Slider/style.css";
 ] */
 
 export default function Slider() {
+  const x = `Experience\nLeads To\nExcellence`;
   return (
     <div>
       <div
@@ -62,17 +63,20 @@ export default function Slider() {
           </div>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item active ">
             <img
-              src="/assets/images/slider1.jpg"
-              className="d-block w-100"
-              alt="..."
+              src="/assets/images/product1.png"
+              alt=".."
+              className="second-image"
             />
-            <div className="  carousel-caption d-none d-md-block">
-              <h1 className="title">
-                “Experience Leads <br></br>
-                To Excellence”
-              </h1>
+            <img
+              src="/assets/images/slider-background.png"
+              alt="slider-backgorund"
+              width="100%"
+            />
+
+            <div className="carousel-caption d-none d-md-block">
+              <h1 className="title">{x}</h1>
             </div>
           </div>
           <div className="carousel-item">
@@ -82,10 +86,7 @@ export default function Slider() {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">
-                “Experience Leads <br></br>
-                To Excellence”
-              </h1>
+              <h1 className="title">{x}</h1>
             </div>
           </div>
           <div className="carousel-item">

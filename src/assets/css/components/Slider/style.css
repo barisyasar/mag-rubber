@@ -8,8 +8,8 @@
   /* Chrome, Safari, Opera */
   transform: rotate(45deg);
 
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
   margin: 0 0 3px 4px;
 
   width: 16px;
@@ -114,11 +114,22 @@
     opacity: 1;
   }
 }
+.carousel-caption {
+  position: absolute;
+  color: #000 !important;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: -10% !important;
+}
 
 .title {
   display: flex !important;
   justify-content: end !important;
-  align-items: end !important;
+  align-items: center !important;
   letter-spacing: 5px;
   font-size: 65px;
   font-weight: 700;
@@ -135,7 +146,7 @@
 }
 
 .slide-text {
-  color: white;
+  color: gray;
   writing-mode: vertical-lr;
   margin-left: -3px;
   letter-spacing: 5px;
@@ -163,17 +174,17 @@
   background-color: transparent !important;
   color: inherit;
   transition: all 0.5s;
-  border-top: 2px solid #fff !important;
-  border-bottom: 2px solid #fff !important;
-  border-left: 2px solid #fff !important;
-  border-right: 2px solid #fff !important;
+  border-top: 2px solid gray !important;
+  border-bottom: 2px solid gray !important;
+  border-left: 2px solid gray !important;
+  border-right: 2px solid gray !important;
 }
 .circle-button.active {
-  background-color: white !important;
+  background-color: gray !important;
 }
 
 .carousel-inner {
-  height: 91vh;
+  height: 93vh;
   display: flex;
 }
 
@@ -188,8 +199,8 @@
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
@@ -231,4 +242,12 @@
 
 .rounded-circle circle-button active {
   background-color: black !important;
+}
+
+.carousel-item {
+  position: relative !important;
+}
+.carousel-item .second-image {
+  position: absolute;
+  left: -50%;
 }

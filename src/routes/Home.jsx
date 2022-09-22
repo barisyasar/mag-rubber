@@ -6,6 +6,7 @@ import About from "../components/About";
 import CardList from "../components/CardList";
 import PopOut from "../components/PopOut";
 import ImageAnimation from "../components/ImageAnimation";
+import History from "../components/History";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About /> 
      <PopOut/>
       <CardList /> 
+      <History/>
       <ImageAnimation/>
     </Layout>
   );

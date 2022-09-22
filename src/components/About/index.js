@@ -7,16 +7,16 @@ export default function About() {
     <section className="container-fluid about-section">
       <div className="row">
         <div className="col-xl-4 col-md-6">
-          <div className="left-image">
-            <img src="/assets/images/about-01.png" />
+          <div >
+            <img className="left-image" src="/assets/images/about-01.png" />
           </div>
         </div>
-        <div className="col-xl-1 col-md-2">
+        <div className="col-xl-2 col-md-2">
             <img  className="center-image"
               src="/assets/images/mag-triangle-right.png"
             />
         </div>
-        <div className="col-xl-7 col-md-4">
+        <div className="col-xl-6 col-md-4">
           <div className="about-text">
             <p>
               Our Company Gökçek A.Ş which was established in 1968, has become a
@@ -25,7 +25,7 @@ export default function About() {
               of industrial rubber products…
             </p>
           </div>
-          <div className="about-button">
+          <div className="primary-button">
             <button type="button" >
               Learn More
             </button>

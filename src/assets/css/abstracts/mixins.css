@@ -33,3 +33,21 @@
         opacity: 1;
     }
 }
+
+
+
+
+.primary-button button{
+    border: 3px solid #b78b39;
+    border-radius: 21vh;
+    width: 24vh;
+    height: 8vh;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.primary-button button:hover{
+    background-color: #b78b39;
+    color: #fff;
+}

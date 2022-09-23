@@ -18,13 +18,11 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none !important;
+  opacity: 0.6;
 }
 .carousel-control-prev-icon img,
 .carousel-control-next-icon img {
   width: 75px;
-}
-.carousel-control-prev-icon {
-  background-image: none !important;
 }
 .carousel-control-prev-icon:focus,
 .carousel-control-next:focus {

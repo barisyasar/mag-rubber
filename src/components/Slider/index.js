@@ -124,7 +124,6 @@ export default function Slider() {
             className="carousel-control-next-icon mag-rubber-next-icon"
             aria-hidden="true"
           >
-            {' '}
             <img src="/assets/images/right.svg" alt="right" />
           </span>
           <span className="visually-hidden">Next</span>

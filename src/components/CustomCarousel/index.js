@@ -3,106 +3,86 @@ import React from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import '../../assets/css/components/CustomCarousel/style.css';
 
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-  },
-};
-
 const carouselItems = [
   {
     id: 1,
-    name: 'SPHERICAL ROLLER BEARINGS ',
+    name: 'SPHERICAL ROLLER BEARINGS',
     image: '1.svg',
   },
   {
     id: 2,
-    name: 'PULLEYS    ',
-    image: 'customCarousel2.jpeg',
+    name: 'PULLEYS',
+    image: '2.svg',
   },
   {
     id: 3,
-    name: 'PRE-CLEANER GROUP ASSEMBLIES    ',
-    image: 'customCarousel3.jpeg',
+    name: 'PRE-CLEANER GROUP ASSEMBLIES',
+    image: '3.svg',
   },
   {
     id: 4,
-    name: 'OPERATOR SEATS     ',
-    image: 'customCarousel4.jpeg',
+    name: 'OPERATOR SEATS',
+    image: '4.svg',
   },
   {
     id: 5,
     name: 'SEALS',
-    image: 'customCarousel5.jpeg',
+    image: '5.svg',
   },
   {
     id: 6,
     name: 'DAMPER',
-    image: 'customCarousel6.jpeg',
+    image: '6.svg',
   },
   {
     id: 7,
-    name: 'MOUNTS     ',
-    image: 'customCarousel7.jpeg',
+    name: 'MOUNTS',
+    image: '7.svg',
   },
   {
     id: 8,
-    name: 'FUEL CAPS    ',
-    image: 'customCarousel8.jpeg',
+    name: 'FUEL CAPS',
+    image: '8.svg',
   },
   {
     id: 9,
-    name: 'PIN SEALS    ',
-    image: 'customCarousel9.jpeg',
+    name: 'PIN SEALS',
+    image: '9.svg',
   },
   {
     id: 10,
     name: 'VIBRATION MOUNTS',
-    image: 'customCarousel10.jpeg',
+    image: '10.svg',
   },
   {
     id: 11,
-    name: 'MOTOR GRADERS INSERTS    ',
-    image: 'customCarousel11.jpeg',
+    name: 'MOTOR GRADERS INSERTS',
+    image: '11.svg',
   },
   {
     id: 12,
-    name: 'ENGINE GASKETS    ',
-    image: 'customCarousel12.jpeg',
+    name: 'ENGINE GASKETS',
+    image: '12.svg',
   },
   {
     id: 13,
-    name: 'BUSHINGS    ',
-    image: 'customCarousel13.jpeg',
+    name: 'BUSHINGS',
+    image: '13.svg',
   },
   {
     id: 14,
-    name: 'KITS    ',
-    image: 'customCarousel14.jpeg',
+    name: 'KITS',
+    image: '14.svg',
   },
   {
     id: 15,
-    name: 'PUMPS    ',
-    image: 'customCarousel15.jpeg',
+    name: 'PUMPS',
+    image: '15.svg',
   },
   {
     id: 16,
-    name: 'FANS    ',
-    image: 'customCarousel16.jpeg',
+    name: 'FANS',
+    image: '16.svg',
   },
 ];
 
@@ -112,13 +92,12 @@ function CustomCarousel() {
       className="category-carousel-item owl-carousel-item filterable-item oleodinamica_2mp"
       data-bs-interval={10000}
     >
-      {/* img tagi src '/sadfasdf.svg' */}
       <a
         alt="Visualizza prodotti oleodinamici MONOBLOCCHI CETOP"
         href="prodotti\monoblocchi-cetop.html"
       >
         <div className="icon">
-          <img src="/assets/images/1.svg"/>
+          <img src={`/assets/images/${item.image}`} alt={item.image} />
         </div>
 
         <div className="item-position-container mt-3 mb-3 position-relative">
@@ -151,14 +130,7 @@ function CustomCarousel() {
             >
               {items2}
             </div>
-           <div className='owl-button-next'>
-           <div>
-			<span class="m_scroll_arrows next-one"></span>
-			<span class="m_scroll_arrows next-two"></span>
-			<span class="m_scroll_arrows next-three"></span>
-		 </div>
-           </div>
-         </section>
+          </section>
         </div>
       </div>
     </React.Fragment>

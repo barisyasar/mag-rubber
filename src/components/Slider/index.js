@@ -1,14 +1,6 @@
 import React from 'react';
 import '../../assets/css/components/Slider/style.css';
 
-/* const Slider = [
-  {
-    "id": "1",
-    "image":"/assets/images/slider1.jpg",
-    "title":" “Experience Leads To Excellence” "
-  }
-] */
-
 export default function Slider() {
   const x = `Experience\nLeads To\nExcellence`;
   return (

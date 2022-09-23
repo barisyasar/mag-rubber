@@ -11,12 +11,7 @@ export default function About() {
             <img className="left-image" src="/assets/images/about-01.png" />
           </div>
         </div>
-        <div className="col-xl-2 col-md-2">
-            <img  className="center-image"
-              src="/assets/images/mag-triangle-right.png"
-            />
-        </div>
-        <div className="col-xl-6 col-md-4">
+      <div className="col-xl-8 col-md-4">
           <div className="about-text">
             <p>
               Our Company Gökçek A.Ş which was established in 1968, has become a

@@ -52,10 +52,8 @@
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   -webkit-animation-direction: alternate;
-
   animation-delay: 0.3s;
   animation-direction: alternate;
-
   margin-top: -6px;
 }
 
@@ -123,7 +121,12 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  left: -10% !important;
+  left: 150vw !important;
+  transition: left 0.8s ease-out;
+  -webkit-transition: left 0.8s ease-out;
+  -moz-transition: left 0.8s ease-out;
+  -ms-transition: left 0.8s ease-out;
+  -o-transition: left 0.8s ease-out;
 }
 
 .title {
@@ -206,6 +209,9 @@
   -webkit-animation: sdb05 1.5s infinite;
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
 }
 
 @-webkit-keyframes sdb05 {
@@ -228,6 +234,10 @@
   0% {
     transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    -moz-transform: rotate(-45deg) translate(0, 0);
+    -ms-transform: rotate(-45deg) translate(0, 0);
+    -o-transform: rotate(-45deg) translate(0, 0);
   }
 
   50% {
@@ -237,6 +247,10 @@
   100% {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    -moz-transform: rotate(-45deg) translate(-20px, 20px);
+    -ms-transform: rotate(-45deg) translate(-20px, 20px);
+    -o-transform: rotate(-45deg) translate(-20px, 20px);
   }
 }
 
@@ -250,4 +264,17 @@
 .carousel-item .second-image {
   position: absolute;
   left: -50%;
+  transition: left 0.92s ease-out;
+  -webkit-transition: left 0.92s ease-out;
+  -moz-transition: left 0.92s ease-out;
+  -ms-transition: left 0.92s ease-out;
+  -o-transition: left 0.92s ease-out;
+}
+
+.carousel-item.active .carousel-caption {
+  left: 90vw !important;
+}
+
+.carousel-item.active .second-image {
+  left: 0%;
 }

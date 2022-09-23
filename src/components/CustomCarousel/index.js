@@ -121,6 +121,7 @@ function CustomCarousel() {
   ));
   return (
     <div id="custom-carousel" className="custom-carousel-wrapper">
+      <img src="/assets/images/mag-rubber.gif" alt="mag-rubber-gif" />
       <div className="custom-carousel text-center">
         <h2 className="section-header">Product Range</h2>
         <h6 className="section-header-sub">

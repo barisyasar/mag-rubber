@@ -1,6 +1,7 @@
 .custom-carousel-wrapper {
   background-color: #ededed;
   height: 90vh;
+  position: relative;
 }
 .custom-carousel {
   padding: 10vh 0;
@@ -12,9 +13,9 @@
 .custom-carousel .owl-nav {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 100px;
   margin-left: 20px;
-  gap: 40px;
+  gap: 350px;
 }
 
 .custom-carousel .owl-next img {
@@ -47,4 +48,15 @@
 
 .custom-carousel .arrow-wrapper {
   display: flex;
+}
+.custom-carousel-wrapper > img {
+  position: absolute;
+  width: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  bottom: 1%;
 }

@@ -1,25 +1,50 @@
-.wrapper {
-  height: 90vh;
+.custom-carousel-wrapper {
   background-color: #ededed;
-  padding: 200px 0;
+  height: 90vh;
+}
+.custom-carousel {
+  padding: 10vh 0;
 }
 
-.carousel {
-  height: 100%;
-}
-
-.carousel-button {
-  display: flex;
-  justify-content: center;
-}
-
-.owl-next {
+.custom-carousel .owl-next {
   width: 70px;
 }
+.custom-carousel .owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-left: 20px;
+  gap: 40px;
+}
 
-.owl-next img {
+.custom-carousel .owl-next img {
   width: 30px;
 }
-.owl-prev img {
+.custom-carousel .owl-prev img {
   width: 30px;
+}
+.custom-carousel .m_scroll_arrows {
+  display: block;
+  margin: 0px;
+  width: 16px;
+  height: 16px;
+}
+
+.custom-carousel .mouse_scroll.next .m_scroll_arrows {
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.custom-carousel .mouse_scroll.prev .m_scroll_arrows {
+  transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+}
+
+.custom-carousel .arrow-wrapper {
+  display: flex;
 }

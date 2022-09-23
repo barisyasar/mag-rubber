@@ -34,9 +34,14 @@ export default function Header() {
     }
   };
 
-  const links = ['about us', 'products', 'download', 'contact'].map((link) => (
-    <Link className="btn-nav align-self-center" to="/">
-      {link}
+  const links = [
+    { name: 'about us', to: 'about-us' },
+    { name: 'products', to: 'products' },
+    { name: 'download', to: 'download' },
+    { name: 'contact', to: 'contact' },
+  ].map((link) => (
+    <Link className="btn-nav align-self-center" to={link.to}>
+      {link.name}
     </Link>
   ));
 

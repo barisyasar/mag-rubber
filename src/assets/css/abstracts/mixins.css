@@ -1,52 +1,82 @@
-@keyframes topMove {
-    0% {
-        top: -90px;
-    }
-
-    100% {
-        top: 0px;
-    }
+.primary-button button {
+  border: 3px solid #b78b39;
+  border-radius: 21vh;
+  width: 24vh;
+  height: 8vh;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-@keyframes visiblity0 {
-    0% {
-        visibility: visible;
-    }
-
-    20% {
-        visibility: hidden;
-    }
-
-    100% {
-        visibility: hidden;
-    }
+.primary-button button:hover {
+  background-color: #b78b39;
+  color: var(--white);
 }
 
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        left: 100%;
-    }
-
-    to {
-        left: 0%;
-        opacity: 1;
-    }
+.section-header,
+.section-header-sub {
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: var(--black);
+}
+.section-header-sub {
+  margin-top: 14px;
+  font-weight: 400;
 }
 
+/* Swipe Button */
+.m_scroll_arrows {
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  margin: 0 0 3px 4px;
 
-
-.primary-button button{
-    border: 1px solid #b78b39;
-    border-radius: 21vh;
-    width: 12vh;
-    height: 4vh;
-    font-size: 12px;
-    font-weight: 500;
+  width: 16px;
+  height: 16px;
 }
 
-.primary-button button:hover{
-    background-color: #b78b39;
-    color: #fff;
+.one {
+  margin-top: 1px;
+}
+
+.one,
+.two,
+.three {
+  animation: mouse-scroll 1s infinite;
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+}
+
+.one {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.two {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-direction: alternate;
+
+  animation-delay: 0.2s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.three {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-direction: alternate;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  margin-top: -6px;
+
 }

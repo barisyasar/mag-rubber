@@ -59,16 +59,41 @@
               items: 5,
             },
           },
-          autoplay: true,
-          autoplayTimeout: 2500,
-          autoplayHoverPause: true,
-          center: true,
-          mouseDrag: true,
-          navText: [
-            '<img src="/assets/images/left.png" />',
-            '<img src="/assets/images/right.png" />',
-          ],
-        });
+          1000: {
+            items: 5,
+          },
+        },
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        center: true,
+        mouseDrag: true,
+        navText: [
+          ` <div class="mouse_scroll prev">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <a class="arrow-wrapper">
+          <span class="m_scroll_arrows three"></span>
+          <span class="m_scroll_arrows two"></span>
+          <span class="m_scroll_arrows one"></span>
+        </a>
+      </div>
+    </div>`,
+          ` <div class="mouse_scroll next">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <a  class="arrow-wrapper">
+          <span class="m_scroll_arrows one"></span>
+          <span class="m_scroll_arrows two"></span>
+          <span class="m_scroll_arrows three"></span>
+        </a>
+      </div>
+    </div>`,
+        ],
       });
     </script>
 

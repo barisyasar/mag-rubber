@@ -1,6 +1,7 @@
 import React from 'react';
 import SwipeButton from '../SwipeButton';
 import '../../assets/css/components/Slider/style.css';
+import Video from '../Video';
 
 export default function Slider() {
   const x = `Experience\nLeads To\nExcellence`;
@@ -73,13 +74,14 @@ export default function Slider() {
               <h1 className="title">“Experience Leadsasdfsa To Excellence”</h1>
             </div>
           </div>
-          <div className="carousel-item">
-            <img
+          <div className="slider-three carousel-item">
+            <Video/>
+          {/*   <img
               src="/assets/images/slider3.jpg"
               className="d-block w-100"
               alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
+            /> */}
+            <div className="carousel-caption-white carousel-caption d-none d-md-block">
               <h1 className="title">
                 “Experience Leads <br></br>
                 To Excellence”

@@ -110,3 +110,10 @@
 .carousel-item.active .second-image {
   left: 0%;
 }
+
+
+.carousel-caption-white{
+  color: white !important;
+  text-shadow: 4px 4px black
+ }
+

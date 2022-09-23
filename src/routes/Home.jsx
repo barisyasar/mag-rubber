@@ -16,9 +16,9 @@ export default function Home() {
       <Slider />
       <CustomCarousel />
       <About />
-      <Video/>
-{/*       <PopOut />
- */}      <CardList />
+      {/* <Video/> */}
+     <PopOut />
+    <CardList />
       <History />
       <ImageAnimation />
       <ContinuousImprovement />

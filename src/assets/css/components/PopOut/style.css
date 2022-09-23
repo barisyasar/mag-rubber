@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
  .pop-out-wrapper {
-	background: url("https://images.unsplash.com/photo-1452697620382-f6543ead73b5") no-repeat left / 120%;
+	background: url("/public/assets/images/54-years.jpg") no-repeat left / 120%;
 	text-align: center;
 	 animation: sliding-background 40s linear infinite;
 	 padding:10px 0px 0px 0px;

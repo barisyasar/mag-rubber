@@ -1,5 +1,6 @@
-@import "./abstracts/variables.css";
-@import "./abstracts/mixins.css";
+@import './abstracts/variables.css';
+@import './abstracts/mixins.css';
+@import './abstracts/functions.css';
 
 * {
   margin: 0;
@@ -13,6 +14,10 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10vh;
 }
 
 body {
@@ -30,7 +35,6 @@ a {
 
 li {
   list-style-type: none;
-
 }
 
 button {

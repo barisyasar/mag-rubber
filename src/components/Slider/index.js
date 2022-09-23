@@ -1,4 +1,5 @@
 import React from 'react';
+import SwipeButton from '../SwipeButton';
 import '../../assets/css/components/Slider/style.css';
 
 /* const Slider = [
@@ -49,18 +50,7 @@ export default function Slider() {
             aria-label="Slide 4"
           ></button>
           <p className="slide-text">SCROLL DOWN </p>
-          <div className="mouse_scroll">
-            <div class="mouse">
-              <div class="wheel"></div>
-            </div>
-            <div>
-              <a href="#to">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </a>
-            </div>
-          </div>
+          <SwipeButton />
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active ">
@@ -76,7 +66,9 @@ export default function Slider() {
             />
 
             <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">{x}</h1>
+              <h1 className="title">
+                <q>{x}</q>
+              </h1>
             </div>
           </div>
           <div className="carousel-item">
@@ -86,7 +78,7 @@ export default function Slider() {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">{x}</h1>
+              <h1 className="title">“Experience Leadsasdfsa To Excellence”</h1>
             </div>
           </div>
           <div className="carousel-item">
@@ -125,7 +117,9 @@ export default function Slider() {
           <span
             className="carousel-control-prev-icon  mag-rubber-prev-icon "
             aria-hidden="true"
-          ></span>
+          >
+            <img src="/assets/images/left.svg" alt="left" />
+          </span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -137,7 +131,10 @@ export default function Slider() {
           <span
             className="carousel-control-next-icon mag-rubber-next-icon"
             aria-hidden="true"
-          ></span>
+          >
+            {' '}
+            <img src="/assets/images/right.svg" alt="right" />
+          </span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>

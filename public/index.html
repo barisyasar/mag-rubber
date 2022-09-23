@@ -52,14 +52,30 @@
         center: true,
         mouseDrag: true,
         navText: [
-          '<img src="/assets/images/left.png" />',
-          `<div className='owl-button-next'>
-            <div>
-              <span class="m_scroll_arrows next-one"></span>
-              <span class="m_scroll_arrows next-two"></span>
-              <span class="m_scroll_arrows next-three"></span>
-            </div>
-           </div>`,
+          ` <div class="mouse_scroll prev">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <a class="arrow-wrapper">
+          <span class="m_scroll_arrows three"></span>
+          <span class="m_scroll_arrows two"></span>
+          <span class="m_scroll_arrows one"></span>
+        </a>
+      </div>
+    </div>`,
+          ` <div class="mouse_scroll next">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <a  class="arrow-wrapper">
+          <span class="m_scroll_arrows one"></span>
+          <span class="m_scroll_arrows two"></span>
+          <span class="m_scroll_arrows three"></span>
+        </a>
+      </div>
+    </div>`,
         ],
       });
     });

@@ -65,22 +65,23 @@ export default function Slider() {
             </div>
           </div>
           <div className="carousel-item">
-            <img
+          <Video/>
+           {/*  <img
               src="/assets/images/slider2.jpg"
               className="d-block w-100"
               alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">“Experience Leadsasdfsa To Excellence”</h1>
+            /> */}
+            <div className="carousel-caption-white carousel-caption d-none d-md-block">
+              <h1 className="title">“Experience Lead To Excellence”</h1>
             </div>
           </div>
           <div className="slider-three carousel-item">
-            <Video/>
-          {/*   <img
+           
+            <img
               src="/assets/images/slider3.jpg"
               className="d-block w-100"
               alt="..."
-            /> */}
+            /> 
             <div className="carousel-caption-white carousel-caption d-none d-md-block">
               <h1 className="title">
                 “Experience Leads <br></br>

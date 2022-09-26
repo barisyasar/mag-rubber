@@ -1,8 +1,23 @@
 footer {
-  height: 60vh;
-  border-top: 1px solid white;
-  background-color: var(--black);
+  height: 56vh;
+
+  background-color: var(--white);
+}
+footer .list .page-title {
+  color: var(--black);
 }
 footer .copy-rights {
-  color: var(--white);
+  font-weight: 300;
+  color: var(--black);
+  letter-spacing: 2px;
+  padding: 10px 0 30px 0;
+  text-align: end;
+  font-size: 0.9em;
+}
+
+footer .list ul li a {
+  color: var(--black) !important;
+}
+footer .list .icons img {
+  background-color: red;
 }

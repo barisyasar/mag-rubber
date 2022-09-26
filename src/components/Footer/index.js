@@ -4,7 +4,7 @@ import '../../assets/css/components/Footer/footer.css';
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-5 mt-5">
+      <div className="mx-5 ">
         <div className="text-end mb-5 text-white">
           <a href="#carouselExampleCaptions">Back To Top</a>
         </div>
@@ -116,9 +116,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="divider"></div>
+        <div className="divider mb-2"></div>
         <i>
-          <h6 className="my-2 copy-rights">
+          <h6 className="copy-rights">
             &copy; 2022 All rights reserved. This website made with{' '}
             <a href="https://osireklamajansi.com/">OSİ Crew</a>.
           </h6>

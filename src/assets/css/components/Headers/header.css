@@ -56,9 +56,9 @@ nav.active .line-menu {
 
 .btn-nav-wrapper {
   background-color: var(--gray) !important;
-  height: var(--navBarHeight);
   display: flex;
   align-items: center;
+  height: 10vh;
   margin: 0 15px 0 30px !important;
 }
 

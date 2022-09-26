@@ -1,7 +1,7 @@
 .able-to-do {
   height: 90vh;
-  background: var(--medium-gray);
-  padding: 10vh 0;
+  /* background: var(--medium-gray); */
+  padding: 10% 0;
 }
 .able-to-do .able-to-do-heading {
   color: var(--white);

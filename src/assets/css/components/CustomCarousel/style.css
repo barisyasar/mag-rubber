@@ -7,23 +7,19 @@
   padding: 10vh 0;
 }
 
-.custom-carousel .owl-next {
-  width: 70px;
-}
 .custom-carousel .owl-nav {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-left: 20px;
+  padding-left: 67px;
   gap: 350px;
+  margin-top: 65px;
+  background-image: url(./mag-rubber.gif);
+  background-position: center;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  height: 150px;
 }
 
-.custom-carousel .owl-next img {
-  width: 30px;
-}
-.custom-carousel .owl-prev img {
-  width: 30px;
-}
 .custom-carousel .m_scroll_arrows {
   display: block;
   margin: 0px;
@@ -32,18 +28,18 @@
 }
 
 .custom-carousel .mouse_scroll.next .m_scroll_arrows {
-  transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg) translateY(-200%);
+  -ms-transform: rotate(-45deg) translateY(-200%);
+  -webkit-transform: rotate(-45deg) translateY(-200%);
+  -moz-transform: rotate(-45deg) translateY(-200%);
+  -o-transform: rotate(-45deg) translateY(-200%);
 }
 .custom-carousel .mouse_scroll.prev .m_scroll_arrows {
-  transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
+  transform: rotate(-225deg) translateY(200%);
+  -ms-transform: rotate(-225deg) translateY(200%);
+  -webkit-transform: rotate(-225deg) translateY(200%);
+  -moz-transform: rotate(-225deg) translateY(200%);
+  -o-transform: rotate(-225deg) translateY(200%);
 }
 
 .custom-carousel .arrow-wrapper {
@@ -53,10 +49,36 @@
   position: absolute;
   width: 150px;
   left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
+  transform: translateX(-52.6%);
+  -webkit-transform: translateX(-52.6%);
+  -moz-transform: translateX(-52.6%);
+  -ms-transform: translateX(-52.6%);
+  -o-transform: translateX(-52.6%);
   bottom: 1%;
+}
+
+.custom-carousel-wrapper .product-name {
+  letter-spacing: 1px;
+}
+/* .centered-border {
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-color: red;
+  z-index: 2000;
+}
+.centered-horizontal-border {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  z-index: 2000;
+} */
+
+@media screen and (max-height: 1080) {
+  .custom-carousel .owl-nav {
+    margin-top: 5vh;
+  }
 }

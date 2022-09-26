@@ -1,0 +1,8 @@
+footer {
+  height: 60vh;
+  border-top: 1px solid white;
+  background-color: var(--black);
+}
+footer .copy-rights {
+  color: var(--white);
+}

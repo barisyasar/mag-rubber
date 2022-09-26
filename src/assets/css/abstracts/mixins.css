@@ -78,5 +78,55 @@
   animation-delay: 0.3s;
   animation-direction: alternate;
   margin-top: -6px;
+}
 
+/* ul li generals */
+
+.list .page-title {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid var(--gold);
+  padding-left: 1.2em;
+  letter-spacing: 1px;
+}
+
+.list .page-title::before {
+  content: '';
+  border-color: transparent var(--gold);
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 1em;
+  position: relative;
+}
+
+.list ul {
+  padding: 5px;
+}
+
+.list ul li {
+  line-height: 2em;
+}
+
+.list ul li a {
+  color: var(--white) !important;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.list .icons img:hover {
+  opacity: 0.5;
+}
+.list ul li a:hover {
+  color: var(--grayish-white) !important;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--grayish-white);
 }

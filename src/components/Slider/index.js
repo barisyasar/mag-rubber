@@ -3,13 +3,13 @@ import SwipeButton from '../SwipeButton';
 import '../../assets/css/components/Slider/style.css';
 
 export default function Slider() {
-  const x = `Experience\nLeads To\nExcellence`;
+  const x = 'Experience\nLeads To\n Excellence';
   return (
     <div>
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="false"
+        className="carousel slide"
+        data-ride={false}
       >
         <div className="carousel-indicators mag-rubber-carousel-indicators">
           <button
@@ -45,7 +45,12 @@ export default function Slider() {
           <SwipeButton />
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active ">
+          <div className="carousel-item active">
+            <div className="carousel-item-text">
+              <h1>
+                <q className="text-content">Experience Leads To Excellence</q>
+              </h1>
+            </div>
             <img
               src="/assets/images/product1.png"
               alt=".."
@@ -56,48 +61,42 @@ export default function Slider() {
               alt="slider-backgorund"
               width="100%"
             />
-
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">
-                <q>{x}</q>
+          </div>
+          <div className="carousel-item ">
+            <div className="carousel-item-text">
+              <h1>
+                <q className="text-content">Experience Leads To Excellence</q>
               </h1>
             </div>
+            <img
+              src="/assets/images/slider1.jpg"
+              alt="slider-backgorund"
+              width="100%"
+            />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
+            <div className="carousel-item-text">
+              <h1>
+                <q className="text-content">Experience Leads To Excellence</q>
+              </h1>
+            </div>
             <img
               src="/assets/images/slider2.jpg"
-              className="d-block w-100"
-              alt="..."
+              alt="slider-backgorund"
+              width="100%"
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">“Experience Leadsasdfsa To Excellence”</h1>
-            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
+            <div className="carousel-item-text">
+              <h1>
+                <q className="text-content">Experience Leads To Excellence</q>
+              </h1>
+            </div>
             <img
               src="/assets/images/slider3.jpg"
-              className="d-block w-100"
-              alt="..."
+              alt="slider-backgorund"
+              width="100%"
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">
-                “Experience Leads <br></br>
-                To Excellence”
-              </h1>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/assets/images/slider4.jpg"
-              className="d-block w-100"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="title">
-                “Experience Leads <br></br>
-                To Excellence”
-              </h1>
-            </div>
           </div>
         </div>
         <button

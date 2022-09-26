@@ -27,7 +27,7 @@
       // Owl Carousel
       var cat_center_pos = $(".category-carousel-item").length / 2 - 1;
       var catCarousel = $(".categories-carousel").owlCarousel({
-        loop: false,
+        loop: true,
         rewind: true,
         startPosition: Math.round(cat_center_pos),
         responsiveClass: true,
@@ -47,7 +47,7 @@
           },
         },
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 2000,
         autoplayHoverPause: true,
         center: true,
         mouseDrag: true,

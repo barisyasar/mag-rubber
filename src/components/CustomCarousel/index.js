@@ -114,14 +114,15 @@ function CustomCarousel() {
           </svg>
         </div>
         <h4 className="item-lower-name mt-2 text-center">
-          <span className="text">{item.name}</span>
+          <span className="text product-name">{item.name}</span>
         </h4>
       </a>
     </div>
   ));
   return (
     <div id="custom-carousel" className="custom-carousel-wrapper">
-      <img src="/assets/images/mag-rubber.gif" alt="mag-rubber-gif" />
+      <div className="centered-border"></div>
+      <div className="centered-horizontal-border"></div>
       <div className="custom-carousel text-center">
         <h2 className="section-header">Product Range</h2>
         <h6 className="section-header-sub">

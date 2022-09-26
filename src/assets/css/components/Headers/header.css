@@ -27,7 +27,8 @@ nav.active {
 
 nav.active .btn-nav-wrapper,
 nav.active .btn-nav,
-nav.active .main-logo {
+nav.active .main-logo,
+nav.active span {
   animation: visiblity0 0.8s;
   -webkit-animation: visiblity0 0.8s;
   -webkit-animation-delay: 0.8s;
@@ -177,4 +178,9 @@ nav.active .line-menu {
   -o-transition: all 0.5s ease 0.3s;
   -webkit-transition: all 0.5s ease 0.3s;
   -moz-transition: all 0.5s ease 0.3s;
+}
+nav .language {
+  color: var(--gold);
+  letter-spacing: 2px;
+  font-size: 17px;
 }

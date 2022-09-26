@@ -49,7 +49,7 @@ export default function Header() {
     <header>
       <nav
         id="navbar"
-        className="container-fluid border-bottom d-flex justify-content-between align-items-center"
+        className="container-fluid border-bottom d-flex justify-content-between align-items-center "
         ref={navMenu}
       >
         <div>
@@ -59,9 +59,10 @@ export default function Header() {
         </div>
         <div className="d-flex">
           {links}
+          <span className="align-self-center language">EN</span>
           <div className="btn-nav-wrapper">
             <Link className="btn-nav" to="/">
-              <img src="/assets/images/mag-store.png" alt="" width="75" />
+              <img src="/assets/images/mag-stor-shine.gif" alt="" width="75" />
             </Link>
           </div>
           <div className="wrapper-menu " ref={toggle} onClick={onToggle}>
@@ -74,7 +75,7 @@ export default function Header() {
 
       <div className="nav-toggler" ref={toggleContent}>
         <div className="container">
-          <div className="row mx-5">
+          <div className="row mx-5 list">
             <div className="col-4 px-5">
               <p className="page-title">PRODUCTS</p>
               <ul>
@@ -196,7 +197,7 @@ export default function Header() {
               </ul>
               <p className="page-title">contact</p>
               <p className="page-title">social</p>
-              <div className="d-flex justify-content-center align-items-center">
+              <div className="d-flex justify-content-center align-items-center icons">
                 <img
                   src="/assets/images/facebook.png"
                   alt="facebook"
@@ -223,7 +224,7 @@ export default function Header() {
 
               <div className="text-center mt-5">
                 <img
-                  src="/assets/images/mag-store-white.png"
+                  src="/assets/images/mag-stor-shine.gif"
                   alt="mag-store-white"
                   width="100"
                 />

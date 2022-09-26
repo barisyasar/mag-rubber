@@ -1,18 +1,21 @@
 .about-us{
 background-color: var(--white);
-height: 91vh;
-padding: 100px 0;
-overflow: hidden;
+height: 90%;
+
+/* overflow: hidden; */
 
 }
 
-.about-pop-up-section{
-    width: 100% !important;
-}
+ .about-right-section{
+   padding: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: end;
+  
+
+} 
 
 .about-text-section{
     display: flex;
-    padding: 150px 0px 0px 100px;
 }
 
 .about-text {
@@ -21,14 +24,14 @@ overflow: hidden;
     letter-spacing: 2px;
 }
 .about-us h1 {
-    font-size: 54px;
-    margin-left: -55px;
+    font-size: 48px;
+    margin-left: -48px;
 }
 
 .about-us-header{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content:start;
 }
 
 .read-more a {
@@ -37,13 +40,31 @@ overflow: hidden;
 }
 
 .read-more p {
-    margin-left: 8px;
-    margin-top: 2px;
+    margin-left:10px;
+    margin-top: 20px;
+    text-decoration-line:underline;
 }
 
 .about-us img {
-    justify-content: center;
-width: 20%;
+justify-content: center;
 }
 
 
+.arrow1 {
+    animation: left-arrow 1s ease-in-out infinite;
+    margin-left: -10px;
+  }
+
+
+  .about-us button {
+color: var(--gold);
+margin-top: 20px;    transition: background 0.5s ease;
+  }
+
+
+  .about-video{
+
+    width: 600px; 
+    height: 700px;
+    background-color: #eaeaea;
+  }

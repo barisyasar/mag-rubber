@@ -3,13 +3,14 @@
 	background: url("/public/assets/images/54-years.jpg") no-repeat left / 120%;
 	text-align: center;
 	animation: sliding-background 40s linear infinite;
+	width: 100%;
 
 }
 .pop-out-wrapper h1{
 	 background: white;
 	 color: white;
 	 font-family: "Montserrat", sans-serif;
-	 font-size: 8vw;
+	 font-size: 6vw;
 	 letter-spacing: 1vw;
      margin: 0;
 	 mix-blend-mode: lighten;
@@ -31,7 +32,7 @@
 	 mix-blend-mode: lighten;
 	 text-transform: uppercase;
      text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black;
-	 padding:0px 0px 100px 0px;
+	 padding:20px 0px 100px 0px;
 }
 .pop-out-wrapper h2:before {
 	 margin-left: -1%;

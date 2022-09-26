@@ -18,8 +18,6 @@ export default function Home() {
       <CustomCarousel />
       <About />
 
-  <PopOut />
-
       <CardList />
 
       <History />

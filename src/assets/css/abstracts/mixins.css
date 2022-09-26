@@ -1,11 +1,8 @@
 .primary-button button {
-  border: 3px solid #b78b39;
+  border: 1px solid #b78b39;
   border-radius: 21vh;
-  width: 24vh;
-  height: 8vh;
-  letter-spacing: 2px;
-  font-size: 22px;
-  font-weight: 700;
+
+ 
 }
 
 .primary-button button:hover {
@@ -23,6 +20,8 @@
   margin-top: 14px;
   font-weight: 400;
 }
+
+
 
 /* Swipe Button */
 .m_scroll_arrows {
@@ -129,4 +128,8 @@
   height: 1px;
   width: 100%;
   background-color: var(--grayish-white);
+}
+
+.triangle-button{
+  color: var(--gold);
 }

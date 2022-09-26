@@ -1,6 +1,7 @@
 import React from 'react';
 import SwipeButton from '../SwipeButton';
 import '../../assets/css/components/Slider/style.css';
+import Video from '../Video';
 
 export default function Slider() {
   const x = 'Experience\nLeads To\n Excellence';
@@ -68,6 +69,7 @@ export default function Slider() {
                 <q className="text-content">Experience Leads To Excellence</q>
               </h1>
             </div>
+
             <img
               src="/assets/images/slider1.jpg"
               alt="slider-backgorund"
@@ -78,6 +80,7 @@ export default function Slider() {
             <div className="carousel-item-text">
               <h1>
                 <q className="text-content">Experience Leads To Excellence</q>
+
               </h1>
             </div>
             <img

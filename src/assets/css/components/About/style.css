@@ -1,24 +1,49 @@
-.about-section{
-background-color: #EDEDED;
-padding: 100px 10px 100px 50px;
-display: flex;
-height: 90%;
-
+.about-us{
+background-color: var(--white);
+height: 91vh;
+padding: 100px 0;
+overflow: hidden;
 
 }
 
-.about-text{
-    margin-top: 50px;
+.about-pop-up-section{
+    width: 100% !important;
 }
 
-.about-text p {
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 4vh;
-   
+.about-text-section{
+    display: flex;
+    padding: 150px 0px 0px 100px;
 }
 
-.left-image{
-    width: 80%;
-    margin-left: 50px;
+.about-text {
+    padding-top: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
+.about-us h1 {
+    font-size: 54px;
+    margin-left: -55px;
+}
+
+.about-us-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.read-more a {
+    display: flex;
+    flex-direction: row;
+}
+
+.read-more p {
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.about-us img {
+    justify-content: center;
+width: 20%;
+}
+
+

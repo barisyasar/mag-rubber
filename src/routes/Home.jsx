@@ -10,16 +10,18 @@ import ContinuousImprovement from '../components/ContinuousImprovement';
 import History from '../components/History';
 import AbleToDo from '../components/AbleToDo';
 import Video from '../components/Video';
+
 export default function Home() {
   return (
     <Layout>
       <Slider />
       <CustomCarousel />
       <About />
-      {/* <Video/> */}
-      {/*       <PopOut />
-       */}{' '}
+
+  <PopOut />
+
       <CardList />
+
       <History />
       <ImageAnimation />
       <ContinuousImprovement />

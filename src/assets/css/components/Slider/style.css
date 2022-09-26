@@ -131,3 +131,10 @@
     left: 3vw;
   }
 }
+
+
+.carousel-caption-white{
+  color: white !important;
+  text-shadow: 4px 4px black
+ }
+

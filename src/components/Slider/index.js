@@ -66,21 +66,20 @@ export default function Slider() {
           <div className="carousel-item ">
             <div className="carousel-item-text">
               <h1>
-                <q className="text-content">Experience Leads To Excellence</q>
+                <q className="carousel-caption-white text-content">
+                  Experience Leads To Excellence
+                </q>
               </h1>
             </div>
 
-            <img
-              src="/assets/images/slider1.jpg"
-              alt="slider-backgorund"
-              width="100%"
-            />
+            <Video />
           </div>
           <div className="carousel-item ">
             <div className="carousel-item-text">
               <h1>
-                <q className="text-content">Experience Leads To Excellence</q>
-
+                <q className="text-content carousel-caption-white ">
+                  Experience Leads To Excellence
+                </q>
               </h1>
             </div>
             <img
@@ -92,7 +91,9 @@ export default function Slider() {
           <div className="carousel-item ">
             <div className="carousel-item-text">
               <h1>
-                <q className="text-content">Experience Leads To Excellence</q>
+                <q className="text-content carousel-caption-white ">
+                  Experience Leads To Excellence
+                </q>
               </h1>
             </div>
             <img

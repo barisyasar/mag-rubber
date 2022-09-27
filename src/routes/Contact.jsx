@@ -1,7 +1,7 @@
-import React from 'react'
-import Layout from '../components/Layout'
-import "../assets/css/components/Contact/style.css";
-
+import React from 'react';
+import Layout from '../components/Layout';
+import '../assets/css/components/Contact/style.css';
+import { BsCaretDown } from "react-icons/bs";
 
 function Contact() {
   return (
@@ -14,14 +14,16 @@ function Contact() {
             </div>
             <div className="col-4">
               <form>
-               
                 <div className="form-group">
-                  <label className='label-text' for="exampleFormControlSelect1">Tell us about your issue so we can help you
-more quickly.</label>
+                  <label className="label-text" for="exampleFormControlSelect1">
+                    Tell us about your issue so we can help you more quickly.
+                  </label>
                   <select
                     className="form-control"
                     id="exampleFormControlSelect1"
                   >
+                    <BsCaretDown/>
+
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -30,31 +32,43 @@ more quickly.</label>
                   </select>
                 </div>
                 <div className="row">
-              <div className="col-6"> <div className="form-group">
-                  <label className='label-text' for="exampleFormControlSelect2">
-                    First Name
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    cols="2"
-                    id="exampleFormControlInput1"
-                  />
-                </div></div>
-               <div className="col-6"> <div className="form-group">
-                  <label className='label-text' for="exampleFormControlSelect2">
-                   Last Name
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    cols="2"
-                    id="exampleFormControlInput1"
-                  />
-                </div></div>
-              </div>
-              <div className="form-group">
-                  <label className='label-text' for="exampleFormControlSelect2">
+                  <div className="col-6">
+                    {' '}
+                    <div className="form-group">
+                      <label
+                        className="label-text"
+                        for="exampleFormControlSelect2"
+                      >
+                        First Name
+                      </label>
+                      <input
+                        type="email"
+                        className="form-control"
+                        cols="2"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    {' '}
+                    <div className="form-group">
+                      <label
+                        className="label-text"
+                        for="exampleFormControlSelect2"
+                      >
+                        Last Name
+                      </label>
+                      <input
+                        type="email"
+                        className="form-control"
+                        cols="2"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label className="label-text" for="exampleFormControlSelect2">
                     Email
                   </label>
                   <input
@@ -64,8 +78,8 @@ more quickly.</label>
                     id="exampleFormControlInput1"
                   />
                 </div>
-              <div className="form-group">
-                  <label className='label-text' for="exampleFormControlSelect2">
+                <div className="form-group">
+                  <label className="label-text" for="exampleFormControlSelect2">
                     Phone Number
                   </label>
                   <input
@@ -75,8 +89,11 @@ more quickly.</label>
                     id="exampleFormControlInput1"
                   />
                 </div>
-               <div className="form-group">
-                  <label className='label-text' for="exampleFormControlTextarea1">
+                <div className="form-group">
+                  <label
+                    className="label-text"
+                    for="exampleFormControlTextarea1"
+                  >
                     Your Message
                   </label>
                   <textarea
@@ -85,14 +102,13 @@ more quickly.</label>
                     rows="5"
                   ></textarea>
                 </div>
-               
               </form>
             </div>
           </div>
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

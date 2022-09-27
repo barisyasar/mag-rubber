@@ -4,13 +4,12 @@
 .image-left{
   margin-top: -450px;
   margin-right: -300px;
-  width: 600px;
-  height: 600px;
+  width: 400px;
 }
 .image-right{
 margin-left: 300px;
- width: 600px;
- height: 600px;
+ width: 400px;
+
 
 }
 
@@ -34,4 +33,12 @@ margin-left: 300px;
   height: calc(100% - 20px);
   background-color: black;
   opacity: 0.3;
-  transition: 0.2s;}
+  transition: 0.2s;
+}
+
+.animation-text{
+  padding-top: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  padding-left: 50px;
+}

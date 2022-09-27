@@ -1,0 +1,13 @@
+.about-page-section{
+    padding: 100px 0;
+}
+
+
+.about-page-header{
+    display: flex;
+    justify-content: center;
+}
+
+.about-page-header h1 {
+    margin-left: -40px;
+}

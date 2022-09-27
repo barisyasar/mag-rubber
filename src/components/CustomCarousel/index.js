@@ -11,78 +11,98 @@ const carouselItems = [
   },
   {
     id: 2,
-    name: 'PULLEYS',
+    name: 'MOTOR GRADERS INSERTS',
     image: '2.svg',
   },
   {
     id: 3,
-    name: 'PRE-CLEANER GROUP ASSEMBLIES',
+    name: 'ENGINE GASKETS',
     image: '3.svg',
   },
   {
     id: 4,
-    name: 'OPERATOR SEATS',
+    name: 'VIBRATION MOUNTS',
     image: '4.svg',
   },
   {
     id: 5,
-    name: 'SEALS',
+    name: 'BUSHINGS',
     image: '5.svg',
   },
   {
     id: 6,
-    name: 'DAMPER',
+    name: 'KITS',
     image: '6.svg',
   },
   {
     id: 7,
-    name: 'MOUNTS',
+    name: 'PUMPS    ',
     image: '7.svg',
   },
   {
     id: 8,
-    name: 'FUEL CAPS',
+    name: 'FANS',
     image: '8.svg',
   },
   {
     id: 9,
-    name: 'PIN SEALS',
+    name: 'PULLEYS',
     image: '9.svg',
   },
   {
     id: 10,
-    name: 'VIBRATION MOUNTS',
+    name: 'PRE-CLEANER GROUP ASSEMBLIES',
     image: '10.svg',
   },
   {
     id: 11,
-    name: 'MOTOR GRADERS INSERTS',
+    name: 'OPERATOR SEATS',
     image: '11.svg',
   },
   {
     id: 12,
-    name: 'ENGINE GASKETS',
+    name: 'SEALS',
     image: '12.svg',
   },
   {
     id: 13,
-    name: 'BUSHINGS',
+    name: 'DAMPERS',
     image: '13.svg',
   },
   {
     id: 14,
-    name: 'KITS',
+    name: 'MOUNTS',
     image: '14.svg',
   },
   {
     id: 15,
-    name: 'PUMPS',
+    name: 'FUEL CAPS',
     image: '15.svg',
   },
   {
     id: 16,
-    name: 'FANS',
+    name: 'PIN SEALS',
     image: '16.svg',
+  },
+  {
+    id: 17,
+    name: 'SUSPENSION RUBBER SPRINGS',
+    image: '17.svg',
+  },
+  {
+    id: 18,
+    name: 'VISCOUS MOUNTS - CUSHIONS',
+    image: '18.svg',
+  },
+  {
+    id: 19,
+    name: 'COUPLINGS',
+    image: '19.svg',
+  },
+  {
+    id: 20,
+    name: 'STATORS',
+    image: '20.svg',
   },
 ];
 
@@ -119,6 +139,7 @@ function CustomCarousel() {
       </a>
     </div>
   ));
+
   return (
     <div id="custom-carousel" className="custom-carousel-wrapper">
       <div className="centered-border"></div>

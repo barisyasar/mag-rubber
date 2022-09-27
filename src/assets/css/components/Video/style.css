@@ -1,7 +1,7 @@
-.video-text{
-    position: absolute
+.video-text {
+  position: absolute;
 }
 
-.video-section{
-    width: 100%;
+.video-section video {
+  width: 100vw;
 }

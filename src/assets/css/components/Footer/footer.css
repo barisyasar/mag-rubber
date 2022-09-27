@@ -1,6 +1,5 @@
 footer {
   height: 56vh;
-
   background-color: var(--white);
 }
 footer .list .page-title {
@@ -18,6 +17,6 @@ footer .copy-rights {
 footer .list ul li a {
   color: var(--black) !important;
 }
-footer .list .icons img {
-  background-color: red;
+footer .list .icons svg {
+  fill: var(--black) !important;
 }

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a748b5e7.css",
-    "main.js": "/static/js/main.fa1a7138.js",
-    "static/media/aboutVideo.mp4": "/static/media/aboutVideo.8b1b8b2948fb7f48d2e7.mp4",
-    "static/media/video.mp4": "/static/media/video.1be62f3b0296d9ec281f.mp4",
-    "static/media/54-years.jpg": "/static/media/54-years.9cced70a723bf77b9b60.jpg",
-    "static/media/mag-rubber.gif": "/static/media/mag-rubber.1383b7d6979902d09c50.gif",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/triangles.svg": "/static/media/triangles.7a6d02bf821de5a292595bcdb1f1abbf.svg",
-    "static/media/trianglesReverse.svg": "/static/media/trianglesReverse.703c1bbe85fd05f8986712e9df904030.svg",
-    "index.html": "/index.html",
-    "main.a748b5e7.css.map": "/static/css/main.a748b5e7.css.map",
-    "main.fa1a7138.js.map": "/static/js/main.fa1a7138.js.map"
+    "main.css": "/mag-rubber/static/css/main.1b6a450a.css",
+    "main.js": "/mag-rubber/static/js/main.a95b20b7.js",
+    "static/media/aboutVideo.mp4": "/mag-rubber/static/media/aboutVideo.8b1b8b2948fb7f48d2e7.mp4",
+    "static/media/video.mp4": "/mag-rubber/static/media/video.1be62f3b0296d9ec281f.mp4",
+    "static/media/54-years.jpg": "/mag-rubber/static/media/54-years.9cced70a723bf77b9b60.jpg",
+    "static/media/mag-rubber.gif": "/mag-rubber/static/media/mag-rubber.1383b7d6979902d09c50.gif",
+    "static/media/revicons.eot": "/mag-rubber/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/mag-rubber/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/mag-rubber/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/triangles.svg": "/mag-rubber/static/media/triangles.7a6d02bf821de5a292595bcdb1f1abbf.svg",
+    "static/media/trianglesReverse.svg": "/mag-rubber/static/media/trianglesReverse.703c1bbe85fd05f8986712e9df904030.svg",
+    "index.html": "/mag-rubber/index.html",
+    "main.1b6a450a.css.map": "/mag-rubber/static/css/main.1b6a450a.css.map",
+    "main.a95b20b7.js.map": "/mag-rubber/static/js/main.a95b20b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a748b5e7.css",
-    "static/js/main.fa1a7138.js"
+    "static/css/main.1b6a450a.css",
+    "static/js/main.a95b20b7.js"
   ]
 }

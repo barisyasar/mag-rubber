@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <Layout>
       <Slider />
+      <h1>asdfasf</h1>
       <CustomCarousel />
       <About />
       <CardList />

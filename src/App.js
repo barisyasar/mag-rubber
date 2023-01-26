@@ -5,7 +5,7 @@ import './assets/css/style.css';
 
 function App() {
   return (
-    <BrowserRouter forceRefresh={true}>
+    <BrowserRouter forceRefresh={true} basename="/">
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mag-rubber/static/css/main.1b6a450a.css",
-    "main.js": "/mag-rubber/static/js/main.a95b20b7.js",
+    "main.js": "/mag-rubber/static/js/main.3d6ae11b.js",
     "static/media/aboutVideo.mp4": "/mag-rubber/static/media/aboutVideo.8b1b8b2948fb7f48d2e7.mp4",
     "static/media/video.mp4": "/mag-rubber/static/media/video.1be62f3b0296d9ec281f.mp4",
     "static/media/54-years.jpg": "/mag-rubber/static/media/54-years.9cced70a723bf77b9b60.jpg",
@@ -13,10 +13,10 @@
     "static/media/trianglesReverse.svg": "/mag-rubber/static/media/trianglesReverse.703c1bbe85fd05f8986712e9df904030.svg",
     "index.html": "/mag-rubber/index.html",
     "main.1b6a450a.css.map": "/mag-rubber/static/css/main.1b6a450a.css.map",
-    "main.a95b20b7.js.map": "/mag-rubber/static/js/main.a95b20b7.js.map"
+    "main.3d6ae11b.js.map": "/mag-rubber/static/js/main.3d6ae11b.js.map"
   },
   "entrypoints": [
     "static/css/main.1b6a450a.css",
-    "static/js/main.a95b20b7.js"
+    "static/js/main.3d6ae11b.js"
   ]
 }
